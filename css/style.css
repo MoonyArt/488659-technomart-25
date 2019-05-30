@@ -6,5 +6,74 @@ body {
   font-size: 17px;
   line-height: 18px;
   font-weight: 400;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-header-logo img {
+  background-color: #ee3643;
+}
+
+.main-header-logo:hover img {
+  background-color: #ca2c37;
+}
+
+.main-header-logo:active img {
+  background-color: #ba2732;
+}
+
+.header-top {
+  font-size: 17px;
+  line-height: 18px;
   color: #ffffff;
+
+  background-color: #293449;
+}
+
+.search input {
+  color: #ffffff;
+
+  border: none;
+  background-color: #293449;
+}
+
+.search input:hover {
+  background-color: #212a3a;
+}
+
+.search input:focus {
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.header-top a {
+  color: #ffffff;
+}
+
+.header-top a:hover {
+  background-color: #212a3a;
+}
+
+.header-top a:active {
+  color: rgba(255, 255, 255, 0.6);
+
+  background-color: #161d29;
+}
+
+a.order {
+  background-color: #63a63e;
+}
+
+a.order:hover {
+  background-color: #5fbb2d;
+}
+
+a.order:active {
+  background-color: #518534;
 }
