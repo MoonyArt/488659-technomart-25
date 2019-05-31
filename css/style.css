@@ -15,6 +15,17 @@ a {
   text-decoration: none;
 }
 
+.button {
+  font: inherit;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #ffffff;
+  border: none;
+
+  background-color: #ee3643;
+}
+
 .main-header-logo img {
   background-color: #ee3643;
 }
@@ -76,4 +87,76 @@ a.order:hover {
 
 a.order:active {
   background-color: #518534;
+}
+
+.header-bottom {
+  background-color: #f4f7f9;
+}
+
+.header-bottom h1 {
+  font-size: 16px;
+  line-height: 23px;
+  font-style: italic;
+  color: #ee3643;
+}
+
+a.phone {
+  font-size: 21px;
+  line-height: 21px;
+
+  text-align: center;
+  color: #ee3643;
+  border: 3px solid #ffffff;
+}
+
+.address {
+  font-size: 14px;
+  line-height: 24px;
+  color: #32425c;
+}
+
+.user-navigation {
+  list-style: none;
+}
+
+.login-link a,
+.registration-link a {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+
+  background-color: #ffffff
+}
+
+.login-link a:hover,
+.registration-link a:hover {
+  color: #ee3643;
+}
+
+.login-link a:active,
+.registration-link a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a {
+  font-size: 17px;
+  line-height: 17px;
+  color: #ffffff;
+  border-bottom: 5px solid #293449;
+
+  background-color: #32425c;
+}
+
+.site-navigation-item-current a:hover {
+  background-color: #293449;
+}
+
+.site-navigation-item-current a:active {
+  color: rgba(255, 255, 255, 0.5);
+
+  background-color: #1d2739;
 }
