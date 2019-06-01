@@ -472,3 +472,41 @@ a.button-bookmark:active {
 .services-credit-btn {
   background-color: #ff5357;
 }
+
+/* Стили для раздела О Компании и Контакты */
+
+.index-columns {
+  background-color: #ffffff;
+}
+
+.about-company h2 {
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.about-company p {
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.delivery-company {
+  list-style: none;
+}
+
+.delivery-company li {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.contacts h2 {
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.contacts p {
+  font-size: 13px;
+  line-height: 24px;
+}
