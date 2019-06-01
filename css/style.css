@@ -290,7 +290,7 @@ a.phone {
 }
 
 .catalog-item {
-  border: 2px solid #eaeaea;
+  border: 1px solid #eaeaea;
 }
 
 .catalog-item h3 {
@@ -368,3 +368,5 @@ a.button-bookmark:active {
   color: rgba(50, 66, 92, 0.3);
   border: 3px solid #32425c;
 }
+
+/* Популярные производители */
