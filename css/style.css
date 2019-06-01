@@ -19,12 +19,23 @@ a {
   font: inherit;
   font-size: 14px;
   line-height: 18px;
+  text-transform: uppercase;
 
   color: #ffffff;
   border: none;
 
   background-color: #ee3643;
 }
+
+a.button:hover {
+  background-color: #ca2c37;
+}
+
+a.button:active {
+  background-color: #ba2732;
+}
+
+/* Стили для шапки сайта */
 
 .main-header-logo img {
   background-color: #ee3643;
@@ -160,3 +171,104 @@ a.phone {
 
   background-color: #1d2739;
 }
+
+/* Стили для раздела Особенности */
+
+.catalog-sections-list {
+  list-style: none;
+}
+
+.catalog-sections-list li:first-child {
+  background-color: #ffbf47;
+}
+
+.catalog-sections-list li:nth-child(2) {
+  background-color: #3bbce3;
+}
+
+.catalog-sections-list li:last-child {
+  background-color: #dc91d8;
+}
+
+.catalog-sections-item h3 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.catalog-sections-item a {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.catalog-sections-item a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.catalog-sections-item a:active {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.features-slides-list,
+.features-slides-switches1,
+.features-slides-switches2 {
+  list-style: none;
+}
+
+.features-slides-item h3 {
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  background-color: #a39e9c;
+}
+
+.features-slides-item p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+
+  background-color: #a39e9c;
+}
+
+.features-discount {
+  background-color: #8ed78f;
+}
+
+.features-delivery {
+  background-color: #ffc047;
+}
+
+.features-discount h3,
+.features-delivery h3 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.features-discount a,
+.features-delivery a {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.features-discount a:hover,
+.features-delivery a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.features-discount a:active,
+.features-delivery a:active {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Стили для раздела Популярные товары */
