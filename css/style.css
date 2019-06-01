@@ -406,3 +406,69 @@ a.button-bookmark:active {
 .popular-brands-item a {
   text-align: center;
 }
+
+/* Стили для раздела Сервисы */
+
+.services {
+  background-color: #f4f7f9;
+}
+
+.services h2 {
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.services p {
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.services-list {
+  list-style: none;
+}
+
+.services-item button {
+  font-size: 21px;
+  line-height: 30px;
+  text-transform: none;
+  color: #ffffff;
+
+  box-shadow: 0px 1px 0 0 #293449, inset 0px 1px 0 0 #405069;
+  background-color: #32425c;
+}
+
+.services-item button:hover {
+  background-color: #293449;
+}
+
+.services-item button:focus {
+  color: #32425c;
+
+  box-shadow: 0px 1px 0 0 #ffffff, inset 0px 1px 0 0 #ffffff;
+  background-color: #ffffff;
+}
+
+.services-description-list {
+  list-style: none;
+}
+
+.services-description-icon h3 {
+  font-size: 36px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #32425c
+}
+
+.services-delivery h3 {
+  line-height: 36px;
+}
+
+.services-description-icon p {
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.services-credit-btn {
+  background-color: #ff5357;
+}
