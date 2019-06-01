@@ -42,11 +42,11 @@ a.button:active {
   box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
 }
 
-.main-header-logo:hover img {
+.main-header-logo img:hover {
   background-color: #ca2c37;
 }
 
-.main-header-logo:active img {
+.main-header-logo img:active {
   background-color: #ba2732;
 }
 
@@ -521,3 +521,159 @@ a.button-bookmark:active {
 }
 
 /* Стили для Подвала */
+
+.footer-top {
+  background-color: #32425c;
+}
+
+.footer-logo img {
+  box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
+  background-color: #ee3643;
+}
+
+.footer-contacts,
+.footer-contacts a {
+  font-size: 18px;
+  line-height: 24px;
+  color: #f3f7f9;
+}
+
+.footer-logo img:hover {
+  background-color: #ca2c37;
+}
+
+.footer-logo img:active {
+  background-color: #ba2732;
+}
+
+.footer-navigation-site {
+  list-style: none;
+}
+
+.footer-navigation-site a {
+  font-size: 18px;
+  line-height: 24px;
+  color: #f1f5f7;
+}
+
+.footer-navigation-menu {
+  list-style: none;
+}
+
+.footer-navigation-menu a {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffd180;
+}
+
+.footer-navigation-site a:hover,
+.footer-navigation-menu a:hover {
+  text-decoration: underline;
+}
+
+.footer-navigation-site a:active,
+.footer-navigation-menu a:active {
+  opacity: 0.5;
+}
+
+.footer-bottom {
+  background-color: #293449;
+}
+
+.footer-copyright-1 {
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.social-button {
+  color: #ffffff;
+  background-color: #212a3a;
+}
+
+.social-button:hover,
+.social-button:active {
+  background-color: #ee3643;
+}
+
+.footer-feedback,
+.footer-copyright-2 {
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff
+}
+
+.feedback,
+.copyright-link {
+  color: #ffd180;
+}
+
+.feedback:hover,
+.copyright-link:hover {
+  text-decoration: underline;
+}
+
+.feedback:active,
+.copyright-link:active {
+  color: #ee3643;
+  text-decoration: none;
+}
+
+/* Стили для попапов */
+
+.modal {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.modal-map img {
+  box-shadow: 0 0 15px 2px rgba(47, 42, 43, 0.5);
+}
+
+.modal-close {
+  color: #ee3643;
+}
+
+.modal-feedback {
+  border-top: 7px solid #ee3643;
+  box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.75);
+  background-color: #ffffff;
+}
+
+.feedback-form label {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.feedback-form input[type="text"],
+.feedback-form textarea {
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #a9a9a9;
+
+  border: 2px solid #dee3e4;
+  background-color: #ffffff;
+}
+
+.feedback-form-send-btn {
+  background-color: #f4f4f4;
+}
+
+.feedback-form-send-btn button {
+  text-align: center;
+}
+
+.feedback-form input:hover,
+.feedback-form textarea:hover {
+  border: solid 2px #b5b5b5;
+}
+
+.feedback-form input:focus,
+.feedback-form textarea:focus {
+  border: solid 2px #ee3643;
+}
