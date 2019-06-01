@@ -76,15 +76,15 @@
       <section class="filters">
         <h2>Фильтр:</h2>
         <form class="filter" action="https://echo.htmlacademy.ru/" method="get">
-          <fieldset>
-            <legend>Цена</legend>
+          <fieldset class="filters-price">
+            <legend>Цена:</legend>
             <input class="filter-input" type="text" name="filter-price-min" value="0">
             <p>-</p>
             <input class="filter-input" type="text" name="filter-price-max" value="30000">
           </fieldset>
 
-          <fieldset>
-            <legend>Производители</legend>
+          <fieldset class="filters-brend">
+            <legend>Производители:</legend>
             <ul>
               <li class="filter-option">
                 <input class="filter-input filter-input-checkbox" type="checkbox" id="bosh-field" name="bosh" checked>
@@ -109,8 +109,8 @@
             </ul>
           </fieldset>
 
-          <fieldset>
-            <legend>Питание</legend>
+          <fieldset class="filters-field">
+            <legend>Питание:</legend>
             <ul>
               <li class="filter-option">
                 <input class="filter-input filter-input-radio" type="radio" id="accumulator-field" name="power-supply" value="accumulator" checked>
@@ -139,6 +139,10 @@
             <p class="catalog-item-image">
               <img src="img/product-1.jpg" width="218" height="170" alt="Перфоратор BOSH BFG 3000">
             </p>
+            <p class="catalog-item-selected">
+              <a class="button button-buy" href="#">Купить</a>
+              <a class="button button-bookmark" href="#">В закладки</a>
+            </p>
             <p class="catalog-item-old-price">22 500 Р.</p>
             <p class="catalog-item-new-price"><a href="#">15 500 Р.</a></p>
           </li>
@@ -152,6 +156,10 @@
             </h3>
             <p class="catalog-item-image">
               <img src="img/product-2.jpg" width="218" height="170" alt="Перфоратор BOSH BFG 6000">
+            </p>
+            <p class="catalog-item-selected">
+              <a class="button button-buy" href="#">Купить</a>
+              <a class="button button-bookmark" href="#">В закладки</a>
             </p>
             <p class="catalog-item-old-price">30 500 Р.</p>
             <p class="catalog-item-new-price"><a href="#">25 500 Р.</a></p>
@@ -183,6 +191,10 @@
             <p class="catalog-item-image">
               <img src="img/product-4.jpg" width="218" height="170" alt="Перфоратор BOSH BFG 3000">
             </p>
+            <p class="catalog-item-selected">
+              <a class="button button-buy" href="#">Купить</a>
+              <a class="button button-bookmark" href="#">В закладки</a>
+            </p>
             <p class="catalog-item-old-price">22 500 Р.</p>
             <p class="catalog-item-new-price"><a href="#">15 500 Р.</a></p>
           </li>
@@ -196,6 +208,10 @@
             </h3>
             <p class="catalog-item-image">
               <img src="img/product-5.jpg" width="218" height="170" alt="Перфоратор BOSH BFG 6000">
+            </p>
+            <p class="catalog-item-selected">
+              <a class="button button-buy" href="#">Купить</a>
+              <a class="button button-bookmark" href="#">В закладки</a>
             </p>
             <span class="catalog-item-new">new</span>
             <p class="catalog-item-old-price">30 500 Р.</p>
@@ -212,6 +228,10 @@
             <p class="catalog-item-image">
               <img src="img/product-6.jpg" width="218" height="170" alt="Перфоратор BOSH BFG 2000">
             </p>
+            <p class="catalog-item-selected">
+              <a class="button button-buy" href="#">Купить</a>
+              <a class="button button-bookmark" href="#">В закладки</a>
+            </p>
             <p class="catalog-item-old-price"></p>
             <p class="catalog-item-new-price"><a href="#">12 500 Р.</a></p>
           </li>
@@ -225,6 +245,10 @@
             </h3>
             <p class="catalog-item-image">
               <img src="img/product-7.jpg" width="218" height="170" alt="Перфоратор BOSH BFG 3000">
+            </p>
+            <p class="catalog-item-selected">
+              <a class="button button-buy" href="#">Купить</a>
+              <a class="button button-bookmark" href="#">В закладки</a>
             </p>
             <span class="catalog-item-new">new</span>
             <p class="catalog-item-old-price">22 500 Р.</p>
@@ -241,6 +265,10 @@
             <p class="catalog-item-image">
               <img src="img/product-8.jpg" width="218" height="170" alt="Перфоратор BOSH BFG 6000">
             </p>
+            <p class="catalog-item-selected">
+              <a class="button button-buy" href="#">Купить</a>
+              <a class="button button-bookmark" href="#">В закладки</a>
+            </p>
             <p class="catalog-item-old-price">30 500 Р.</p>
             <p class="catalog-item-new-price"><a href="#">25 500 Р.</a></p>
           </li>
@@ -254,6 +282,10 @@
             </h3>
             <p class="catalog-item-image">
               <img src="img/product-9.jpg" width="218" height="170" alt="Перфоратор BOSH BFG 3000">
+            </p>
+            <p class="catalog-item-selected">
+              <a class="button button-buy" href="#">Купить</a>
+              <a class="button button-bookmark" href="#">В закладки</a>
             </p>
             <p class="catalog-item-old-price"></p>
             <p class="catalog-item-new-price"><a href="#">12 500 Р.</a></p>
@@ -327,8 +359,10 @@
     <section class="modal modal-buy">
       <h2>Товар добавлен в корзину!</h2>
       <span class="modal-check-icon"></span>
-      <a class="button modal-order" href="#">Оформить заказ</button>
-      <a class="button modal-shopping" href="catalog.html">Продолжить покупки</button>
+      <p class="modal-buy-btn">
+        <a class="button modal-order-btn" href="#">Оформить заказ</button>
+        <a class="button modal-shopping-btn" href="catalog.html">Продолжить покупки</button>
+      </p>
       <button class="modal-close" type="button">
         Закрыть
       </button>

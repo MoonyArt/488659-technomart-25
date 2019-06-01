@@ -163,11 +163,11 @@ a.phone {
   background-color: #32425c;
 }
 
-.site-navigation-item-current a:hover {
+.site-navigation a:hover {
   background-color: #293449;
 }
 
-.site-navigation-item-current a:active {
+.site-navigation a:focus {
   color: rgba(255, 255, 255, 0.5);
 
   background-color: #1d2739;
@@ -676,4 +676,248 @@ a.button-bookmark:active {
 .feedback-form input:focus,
 .feedback-form textarea:focus {
   border: solid 2px #ee3643;
+}
+
+/* Стили для страницы каталога */
+
+.user-navigation-profile {
+  background-color: #ffffff;
+}
+
+.button-input a {
+  font-size: 21px;
+  line-height: 21px;
+  text-transform: none;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.button-exit a {
+  background-color: #ffffff;
+}
+
+.button-input a:active,
+.button-exit a:active {
+  opacity: 0.3;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.user-navigation-link {
+  list-style: none;
+}
+
+.user-orders a,
+.user-account a {
+  font-size: 16px;
+  line-height: 18px;
+  color: #32425c;
+  text-decoration: underline;
+}
+
+.user-orders a:hover,
+.user-account a:hover {
+  color: #ee3643;
+}
+
+.user-orders a:active,
+.user-account a:active {
+  color: rgba(50, 66, 92, 0.3);
+}
+
+.breadcrumbs {
+  list-style: none;
+
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.breadcrumbs a {
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.container h1 {
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #000000;
+
+  background-color: #f2f6f8;
+}
+
+.sort-type,
+.filters h2 {
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+
+  background-color: #f7f3ec;
+}
+
+.sort-type-list {
+  list-style: none;
+}
+
+.sort-type-list-item a {
+  color: rgba(0, 0, 0, 0.3);
+  border-bottom: 1px dashed #ee3643;
+}
+
+.sort-type-list-item a:hover {
+  color: #000000;
+  border-bottom: 1px solid #ee3643;
+}
+
+.sort-type-list-item a:focus {
+  border: none;
+  color: #ee3643;
+}
+
+.sort-derection-list {
+  list-style: none;
+}
+
+.sort-derection-list-icon a {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.sort-derection-list-icon a:hover {
+  color: #000000;
+}
+
+.sort-derection-list-icon a:focus {
+  color: #ee3643;
+}
+
+.filters fieldset {
+  border: none;
+}
+
+.filters legend {
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.filters-field legend {
+  letter-spacing: 1px;
+}
+
+.filters input[type="text"] {
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  color: #000000;
+
+  background-color: #f7f3ec;
+}
+
+.filters p {
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  color: #444444;
+}
+
+.filters-brend ul,
+.filters-field ul {
+  list-style: none;
+}
+
+.filters-brend li,
+.filters-field li {
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.filter-input:disabled + label {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.filter-button {
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+
+  border: 1px solid #e5e5e5;
+  background-color: #ffffff;
+}
+
+.pagination-list {
+  list-style: none;
+}
+
+.pagination-item a {
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+
+  border: 1px solid #e5e5e5;
+  background-color: #ffffff;
+}
+
+.pagination-item-current a {
+  color: #ffffff;
+  background-color: #ee3643;
+}
+
+.pagination-item a:hover {
+  border: 1px solid #bdc6ca;
+}
+
+.pagination-item a:active {
+  border: 1px solid #ee3643;
+}
+
+.about-perforators {
+  background-color: #f4f7f9;
+}
+
+.about-perforators h2 {
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.about-perforators p {
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.modal-buy {
+  border-top: 7px solid #ee3643;
+  box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.75);
+  background-color: #ffffff;
+}
+
+.modal-buy h2 {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.modal-buy-btn {
+  background-color: #f1f1f1;
+}
+
+.modal-shopping-btn {
+  color: #000000;
+  background-color: #ffffff;
 }
