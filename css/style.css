@@ -272,3 +272,99 @@ a.phone {
 }
 
 /* Стили для раздела Популярные товары */
+
+.popular-products-title {
+  background-color: #f9f5f0;
+}
+
+.popular-products-title h2 {
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+
+  color: #32425c;
+}
+
+.catalog-list {
+  list-style: none;
+}
+
+.catalog-item {
+  border: 2px solid #eaeaea;
+}
+
+.catalog-item h3 {
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.catalog-item-name,
+.catalog-item-model {
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.catalog-item-image img {
+  text-align: center;
+}
+
+.catalog-item-old-price {
+  color: #a9a9a9;
+  text-decoration: line-through;
+  text-align: center;
+}
+
+.catalog-item-new-price {
+  text-align: center;
+}
+
+.catalog-item-new-price a {
+  color: #ffffff;
+}
+
+.catalog-item:hover {
+  box-shadow: 0 10px 25px rgba(41, 52, 73, 0.5);
+}
+
+.button-buy {
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+
+  box-shadow: inset 0 -3px 0 #367315;
+  background-color: #63a63e;
+}
+
+a.button-buy:hover {
+  background-color: #5fbb2d;
+}
+
+a.button-buy:active {
+  box-shadow: none;
+  background-color: #518534;
+}
+
+.button-bookmark {
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #32425c;
+
+  border: 3px solid #63a63e;
+  background-color: #ffffff;
+}
+
+a.button-bookmark:hover {
+  border: 3px solid #32425c;
+  background-color: #ffffff;
+}
+
+a.button-bookmark:active {
+  opacity: 0.3;
+
+  color: rgba(50, 66, 92, 0.3);
+  border: 3px solid #32425c;
+}
