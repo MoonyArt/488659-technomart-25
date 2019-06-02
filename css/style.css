@@ -295,7 +295,7 @@ a.phone {
 }
 
 .catalog-item h3 {
-  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 18px;
   line-height: 20px;
   text-align: center;
@@ -313,7 +313,7 @@ a.phone {
 }
 
 .catalog-item-old-price {
-  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
 
   color: #a9a9a9;
   text-decoration: line-through;
@@ -321,7 +321,7 @@ a.phone {
 }
 
 .catalog-item-new-price {
-  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   text-align: center;
 }
 
@@ -425,7 +425,7 @@ a.button-bookmark:active {
 }
 
 .services p {
-  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
 }
@@ -471,7 +471,7 @@ a.button-bookmark:active {
 }
 
 .services-description-icon p {
-  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
 }
@@ -493,7 +493,7 @@ a.button-bookmark:active {
 }
 
 .about-company p {
-  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
 }
@@ -515,7 +515,7 @@ a.button-bookmark:active {
 }
 
 .contacts p {
-  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
 }
@@ -651,7 +651,7 @@ a.button-bookmark:active {
 
 .feedback-form input[type="text"],
 .feedback-form textarea {
-  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #a9a9a9;
@@ -754,7 +754,7 @@ a.button-bookmark:active {
 
 .sort-type,
 .filters h2 {
-  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
   text-transform: uppercase;
@@ -803,7 +803,7 @@ a.button-bookmark:active {
 }
 
 .filters legend {
-  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 30px;
   font-weight: 700;
@@ -816,7 +816,7 @@ a.button-bookmark:active {
 }
 
 .filters input[type="text"] {
-  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 18px;
   color: #000000;
@@ -825,7 +825,7 @@ a.button-bookmark:active {
 }
 
 .filters p {
-  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 16px;
   line-height: 18px;
   color: #444444;
@@ -838,7 +838,7 @@ a.button-bookmark:active {
 
 .filters-brend li,
 .filters-field li {
-  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 15px;
   line-height: 20px;
   text-transform: uppercase;
@@ -850,7 +850,7 @@ a.button-bookmark:active {
 }
 
 .filter-button {
-  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #000000;
@@ -864,7 +864,7 @@ a.button-bookmark:active {
 }
 
 .pagination-item a {
-  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
   color: #000000;
@@ -897,7 +897,7 @@ a.button-bookmark:active {
 }
 
 .about-perforators p {
-  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
 }
