@@ -654,9 +654,9 @@ a.button-bookmark:active {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
-  color: #a9a9a9;
+  color: ##999999;
 
-  border: 2px solid #dee3e4;
+  border: 2px solid #d7dcde;
   background-color: #ffffff;
 }
 
