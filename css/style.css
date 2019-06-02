@@ -668,6 +668,14 @@ a.button-bookmark:active {
   text-align: center;
 }
 
+.feedback-form-send-btn button:hover {
+  background-color: #ca2c37;
+}
+
+.feedback-form-send-btn button:active {
+  background-color: #ba2732;
+}
+
 .feedback-form input:hover,
 .feedback-form textarea:hover {
   border: solid 2px #b5b5b5;
