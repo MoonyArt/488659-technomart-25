@@ -696,10 +696,11 @@ a.button-bookmark:active {
 /* Стили для страницы каталога */
 
 .user-navigation-profile {
+  list-style: none;
   background-color: #ffffff;
 }
 
-.button-input a {
+a.button-input {
   font-size: 21px;
   line-height: 21px;
   text-transform: none;
@@ -708,12 +709,19 @@ a.button-bookmark:active {
   background-color: #ffffff;
 }
 
-.button-exit a {
+a.button-exit {
   background-color: #ffffff;
 }
 
-.button-input a:active,
-.button-exit a:active {
+a.button-input:hover,
+a.button-exit:hover {
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+a.button-input:active,
+a.button-exit:active {
   opacity: 0.3;
   color: rgba(0, 0, 0, 0.3);
 }
