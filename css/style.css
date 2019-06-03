@@ -105,7 +105,7 @@ a.order:active {
   background-color: #f4f7f9;
 }
 
-.header-bottom h1 {
+.page-title {
   font-size: 16px;
   line-height: 23px;
   font-style: italic;
@@ -194,6 +194,7 @@ a.phone {
 .catalog-sections-item h3 {
   font-size: 24px;
   line-height: 30px;
+  font-weight: 700;
   color: #ffffff;
 }
 
@@ -223,6 +224,7 @@ a.phone {
 .features-slides-item h3 {
   font-size: 36px;
   line-height: 36px;
+  font-weight: 700;
   text-transform: uppercase;
   color: #ffffff;
 
@@ -249,6 +251,7 @@ a.phone {
 .features-delivery h3 {
   font-size: 24px;
   line-height: 30px;
+  font-weight: 700;
   color: #ffffff;
 }
 
@@ -298,6 +301,7 @@ a.phone {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 18px;
   line-height: 20px;
+  font-weight: 700;
   text-align: center;
 }
 
@@ -314,6 +318,7 @@ a.phone {
 
 .catalog-item-old-price {
   font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: 700;
 
   color: #a9a9a9;
   text-decoration: line-through;
@@ -322,6 +327,7 @@ a.phone {
 
 .catalog-item-new-price {
   font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: 700;
   text-align: center;
 }
 
@@ -437,6 +443,7 @@ a.button-bookmark:active {
 .services-item button {
   font-size: 21px;
   line-height: 30px;
+  font-weight: 700;
   text-transform: none;
   color: #ffffff;
 
@@ -777,7 +784,7 @@ a.button-bookmark:active {
 
 .sort-type-list-item a {
   color: rgba(0, 0, 0, 0.3);
-  border-bottom: 1px dashed #ee3643;
+  border-bottom: 1px dotted #ee3643;
 }
 
 .sort-type-list-item a:hover {
