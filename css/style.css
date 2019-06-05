@@ -342,6 +342,8 @@ a.phone {
 .features-columns {
   display: flex;
   justify-content: space-between;
+
+  margin-bottom: 53px;
 }
 
 .features-slides {
@@ -421,6 +423,11 @@ a.phone {
 /* Стили для раздела Популярные товары */
 
 .popular-products-title {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 20px;
+
   background-color: #f9f5f0;
 }
 
@@ -429,14 +436,30 @@ a.phone {
   line-height: 30px;
   text-transform: uppercase;
 
+  width: 320px;
+  margin: 0;
+  margin-left: 30px;
+  padding: 0;
+
   color: #32425c;
 }
 
+.popular-products-btn {
+  margin-right: 25px;
+}
+
 .catalog-list {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
   list-style: none;
 }
 
 .catalog-item {
+  width: 220px;
   border: 1px solid #eaeaea;
 }
 
