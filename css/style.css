@@ -151,14 +151,32 @@ a.order:active {
 }
 
 .header-bottom {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
   background-color: #f4f7f9;
 }
 
-.page-title {
+.header-bottom .container {
+  display: flex;
+}
+
+.header-bottom .page-title {
   font-size: 16px;
   line-height: 23px;
   font-style: italic;
+  text-transform: none;
+  width: 300px;
+  margin-right: 20px;
   color: #ee3643;
+
+  background-color: inherit;
+}
+
+.header-contacts {
+  width: 300px;
+  margin-right: 20px;
 }
 
 a.phone {
@@ -177,7 +195,17 @@ a.phone {
 }
 
 .user-navigation {
+  display: flex;
   list-style: none;
+}
+
+.login-link {
+  width: 140px;
+}
+
+.registration-link {
+  width: 150px;
+  margin-left: auto;
 }
 
 .login-link a,
@@ -200,14 +228,23 @@ a.phone {
 }
 
 .site-navigation {
+  display: flex;
+  justify-content: space-around;
+
   list-style: none;
+  width: 940px;
+  margin: 0;
+  margin-bottom: 60px;
+  padding: 0;
+
+  box-shadow: inset 0px -5px 0 0 #293449;
+  background-color: #32425c;
 }
 
 .site-navigation a {
   font-size: 17px;
   line-height: 17px;
   color: #ffffff;
-  border-bottom: 5px solid #293449;
 
   background-color: #32425c;
 }
@@ -222,10 +259,48 @@ a.phone {
   background-color: #1d2739;
 }
 
+.site-navigation a:nth-child(1) {
+  width: 140px;
+}
+
+.site-navigation a:nth-child(2) {
+  width: 125px;
+}
+
+.site-navigation a:nth-child(3) {
+  width: 105px;
+}
+
+.site-navigation a:nth-child(4) {
+  width: 120px;
+}
+
+.site-navigation a:nth-child(5) {
+  width: 170px;
+}
+
+.site-navigation a:nth-child(6) {
+  width: 130px;
+}
+
+.site-navigation a:nth-child(7) {
+  width: 150px;
+}
+
 /* Стили для раздела Особенности */
 
 .catalog-sections-list {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
   list-style: none;
+}
+
+.catalog-sections-item {
+  width: 300px;
 }
 
 .catalog-sections-list li:first-child {
@@ -264,9 +339,20 @@ a.phone {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+.features-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features-slides {
+  width: 620px;
+}
+
 .features-slides-list,
 .features-slides-switches1,
 .features-slides-switches2 {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -288,11 +374,19 @@ a.phone {
   background-color: #a39e9c;
 }
 
+.features-rows {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .features-discount {
+  width: 300px;
   background-color: #8ed78f;
 }
 
 .features-delivery {
+  width: 300px;
   background-color: #ffc047;
 }
 
@@ -993,5 +1087,3 @@ a.button-exit:active {
   color: #000000;
   background-color: #ffffff;
 }
-
-/* Стили для построения макросетки */
