@@ -63,6 +63,8 @@ a.button:active {
 
 .header-top .container {
   display: flex;
+  align-items: flex-start;
+  flex-direction: row;
 }
 
 .header-top .main-header-logo {
@@ -118,6 +120,10 @@ a.button:active {
   width: 140px;
 }
 
+.basket-full {
+  background-color: #ee3643;
+}
+
 .header-top a {
   color: #ffffff;
 }
@@ -154,6 +160,7 @@ a.order:active {
   width: 100%;
   margin: 0;
   padding: 0;
+  padding-top: 45px;
 
   background-color: #f4f7f9;
 }
@@ -176,6 +183,7 @@ a.order:active {
 
 .header-contacts {
   width: 300px;
+
   margin-right: 20px;
 }
 
@@ -227,6 +235,79 @@ a.phone {
   color: rgba(0, 0, 0, 0.3);
 }
 
+/* Стили для шапки страницы Каталога */
+
+.user-navigation-profile {
+  width: 300px;
+  margin: 0;
+  margin-bottom: 9px;
+  padding: 0;
+  list-style: none;
+
+  background-color: #ffffff;
+}
+
+a.button-input {
+  font-size: 21px;
+  line-height: 21px;
+  text-transform: none;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+a.button-exit {
+  background-color: #ffffff;
+}
+
+a.button-input:hover,
+a.button-exit:hover {
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+a.button-input:active,
+a.button-exit:active {
+  opacity: 0.3;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.user-navigation-link {
+  display: flex;
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.user-orders {
+  margin-right: 32px;
+}
+
+.user-orders a,
+.user-account a {
+  font-size: 16px;
+  line-height: 18px;
+  color: #32425c;
+  text-decoration: underline;
+}
+
+.user-orders a:hover,
+.user-account a:hover {
+  color: #ee3643;
+}
+
+.user-orders a:active,
+.user-account a:active {
+  color: rgba(50, 66, 92, 0.3);
+}
+
+.main-navigation {
+  padding-top: 38px;
+  padding-bottom: 60px;
+}
+
 .site-navigation {
   display: flex;
   justify-content: space-around;
@@ -234,7 +315,6 @@ a.phone {
   list-style: none;
   width: 940px;
   margin: 0;
-  margin-bottom: 60px;
   padding: 0;
 
   box-shadow: inset 0px -5px 0 0 #293449;
@@ -992,60 +1072,12 @@ a.button-bookmark:active {
 
 /* Стили для страницы каталога */
 
-.user-navigation-profile {
-  list-style: none;
-  background-color: #ffffff;
-}
-
-a.button-input {
-  font-size: 21px;
-  line-height: 21px;
-  text-transform: none;
-  color: #000000;
-
-  background-color: #ffffff;
-}
-
-a.button-exit {
-  background-color: #ffffff;
-}
-
-a.button-input:hover,
-a.button-exit:hover {
-  color: #000000;
-
-  background-color: #ffffff;
-}
-
-a.button-input:active,
-a.button-exit:active {
-  opacity: 0.3;
-  color: rgba(0, 0, 0, 0.3);
-}
-
-.user-navigation-link {
-  list-style: none;
-}
-
-.user-orders a,
-.user-account a {
-  font-size: 16px;
-  line-height: 18px;
-  color: #32425c;
-  text-decoration: underline;
-}
-
-.user-orders a:hover,
-.user-account a:hover {
-  color: #ee3643;
-}
-
-.user-orders a:active,
-.user-account a:active {
-  color: rgba(50, 66, 92, 0.3);
-}
-
 .breadcrumbs {
+  display: flex;
+
+  margin: 0;
+  margin-bottom: 22px;
+  padding: 0;
   list-style: none;
 
   font-size: 13px;
@@ -1063,10 +1095,28 @@ a.button-exit:active {
   color: #000000;
 }
 
+.breadcrumbs a:first-child {
+  margin-right: 41px;
+}
+
+.breadcrumbs a:nth-child(2) {
+  margin-right: 39px;
+}
+
+.breadcrumbs a:nth-child(3) {
+  margin-right: 43px;
+}
+
 .container h1 {
   font-size: 30px;
   line-height: 30px;
   text-transform: uppercase;
+  font-weight: 400;
+
+  margin-bottom: 20px;
+  padding-top: 32px;
+  padding-bottom: 34px;
+  padding-left: 30px;
   color: #000000;
 
   background-color: #f2f6f8;
