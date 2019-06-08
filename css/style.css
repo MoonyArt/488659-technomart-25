@@ -259,34 +259,6 @@ a.phone {
   background-color: #1d2739;
 }
 
-.site-navigation a:nth-child(1) {
-  width: 140px;
-}
-
-.site-navigation a:nth-child(2) {
-  width: 125px;
-}
-
-.site-navigation a:nth-child(3) {
-  width: 105px;
-}
-
-.site-navigation a:nth-child(4) {
-  width: 120px;
-}
-
-.site-navigation a:nth-child(5) {
-  width: 170px;
-}
-
-.site-navigation a:nth-child(6) {
-  width: 130px;
-}
-
-.site-navigation a:nth-child(7) {
-  width: 150px;
-}
-
 /* Стили для раздела Особенности */
 
 .catalog-sections-list {
@@ -778,15 +750,37 @@ a.button-bookmark:active {
   background-color: #32425c;
 }
 
+.footer-top .container {
+  display: flex;
+}
+
+.footer-top .footer-logo {
+  width: 220px;
+  height: 68px;
+
+  margin-right: 170px;
+  margin-bottom: 30px;
+}
+
 .footer-logo img {
   box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.24);
   background-color: #ee3643;
+}
+
+.footer-contacts {
+  width: 380px;
+  margin-right: 20px;
 }
 
 .footer-contacts,
 .footer-contacts a {
   font-size: 18px;
   line-height: 24px;
+
+  margin: 0;
+  padding: 0;
+  padding-bottom: 50px;
+
   color: #f3f7f9;
 }
 
@@ -799,7 +793,14 @@ a.button-bookmark:active {
 }
 
 .footer-navigation-site {
+  display: flex;
   list-style: none;
+  justify-content: space-around;
+
+  width: 550px;
+
+  margin: 0;
+  padding: 0;
 }
 
 .footer-navigation-site a {
@@ -809,6 +810,14 @@ a.button-bookmark:active {
 }
 
 .footer-navigation-menu {
+  display: flex;
+  justify-content: space-around;
+
+  width: 540px;
+
+  margin: 0;
+  padding: 0;
+
   list-style: none;
 }
 
@@ -832,14 +841,38 @@ a.button-bookmark:active {
   background-color: #293449;
 }
 
+.footer-bottom .container {
+  display: flex;
+}
+
 .footer-copyright-1 {
   font-size: 16px;
   line-height: 18px;
+
+  width: 230px;
+
+  margin: 0;
+  margin-right: 160px;
+  padding: 0;
+
   color: #ffffff;
 }
 
-.footer-social ul {
+.footer-social-list {
+  display: flex;
+
+  width: 150px;
+
+  margin: 0;
+  margin-right: 100px;
+  padding: 0;
+
   list-style: none;
+}
+
+.footer-social-list li:first-child,
+.footer-social-list li:nth-child(2) {
+  margin-right: 3px;
 }
 
 .social-button {
@@ -852,15 +885,32 @@ a.button-bookmark:active {
   background-color: #ee3643;
 }
 
+.footer-feedback {
+  width: 140px;
+  margin-right: 20px;
+}
+
 .footer-feedback,
 .footer-copyright-2 {
   font-size: 16px;
   line-height: 18px;
+
+  margin: 0;
+  padding: 0;
+
   color: #ffffff
+}
+
+.footer-copyright-2 {
+  width: 140px;
+  margin-left: auto;
 }
 
 .feedback,
 .copyright-link {
+  margin: 0;
+  padding: 0;
+
   color: #ffd180;
 }
 
