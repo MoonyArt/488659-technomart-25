@@ -715,14 +715,19 @@ a.button-bookmark:active {
 }
 
 .services-credit-btn {
-  margin-bottom: 153px;
   background-color: #ff5357;
 }
 
 /* Стили для раздела О Компании и Контакты */
 
 .index-columns {
+  display: flex;
+  justify-content: space-between;
   background-color: #ffffff;
+}
+
+.about-company {
+  width: 540px;
 }
 
 .about-company h2 {
@@ -747,6 +752,10 @@ a.button-bookmark:active {
   font-weight: 700;
 }
 
+.contacts {
+  width: 300px;
+}
+
 .contacts h2 {
   font-size: 30px;
   line-height: 30px;
@@ -760,6 +769,10 @@ a.button-bookmark:active {
 }
 
 /* Стили для Подвала */
+
+.main-footer {
+  margin-top: 85px;
+}
 
 .footer-top {
   background-color: #32425c;
