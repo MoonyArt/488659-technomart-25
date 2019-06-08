@@ -617,6 +617,7 @@ a.button-bookmark:active {
 /* Стили для раздела Сервисы */
 
 .services {
+  width: 100%;
   background-color: #f4f7f9;
 }
 
@@ -630,13 +631,28 @@ a.button-bookmark:active {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
+
+  margin: 0;
+  padding: 0;
+}
+
+.services .index-columns {
+  display: flex;
+
+  margin-bottom: 82px;
+
+  background-color: #f4f7f9;
 }
 
 .services-list {
+  margin: 0;
+  margin-right: 80px;
+  padding: 0;
   list-style: none;
 }
 
 .services-item button {
+  width: 240px;
   font-size: 21px;
   line-height: 30px;
   font-weight: 700;
@@ -659,27 +675,47 @@ a.button-bookmark:active {
 }
 
 .services-description-list {
+  width: 620px;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
-.services-description-icon h3 {
+.services-description-item h3 {
   font-size: 36px;
   line-height: 24px;
   text-transform: uppercase;
+
+  margin: 0;
+  padding: 0;
+
   color: #32425c
+}
+
+.services-description-item p {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 24px;
 }
 
 .services-delivery h3 {
   line-height: 36px;
 }
 
-.services-description-icon p {
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-size: 13px;
-  line-height: 24px;
+.services-delivery p {
+  width: 275px;
+}
+
+.services-guarantee p {
+  width: 380px;
+}
+
+.services-credit p {
+  width: 280px;
 }
 
 .services-credit-btn {
+  margin-bottom: 153px;
   background-color: #ff5357;
 }
 
