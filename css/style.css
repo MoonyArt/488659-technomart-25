@@ -502,17 +502,24 @@ a.button-exit:active {
 
 .catalog-list {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
 
   margin: 0;
-  margin-bottom: 20px;
   padding: 0;
   list-style: none;
 }
 
 .catalog-item {
   width: 220px;
+
+  margin-right: 20px;
+  margin-bottom: 21px;
+
   border: 1px solid #eaeaea;
+}
+
+.popular-products .catalog-item:nth-child(4n) {
+  margin-right: 0;
 }
 
 .catalog-item h3 {
@@ -826,6 +833,10 @@ a.button-bookmark:active {
   margin-top: 85px;
 }
 
+.inner-page .main-footer {
+  margin-top: 0;
+}
+
 .footer-top {
   background-color: #32425c;
 }
@@ -1107,6 +1118,11 @@ a.button-bookmark:active {
   margin-right: 43px;
 }
 
+.catalog-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
 .container h1 {
   font-size: 30px;
   line-height: 30px;
@@ -1122,6 +1138,27 @@ a.button-bookmark:active {
   background-color: #f2f6f8;
 }
 
+.filters {
+  width: 220px;
+
+  margin-right: 20px;
+}
+
+.catalog-columns-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.sort-type {
+  display: flex;
+  width: 700px;
+  margin-bottom: 20px;
+}
+
+.sort-type h2 {
+  margin-right: 100px;
+}
+
 .sort-type,
 .filters h2 {
   font-family: "PT Sans", "Arial", sans-serif;
@@ -1134,7 +1171,17 @@ a.button-bookmark:active {
 }
 
 .sort-type-list {
+  display: flex;
+  width: 380px;
+
+  margin: 0;
+  margin-right: 20px;
+  padding: 0;
   list-style: none;
+}
+
+.sort-type-list-item {
+  margin-right: 20px;
 }
 
 .sort-type-list-item a {
@@ -1153,6 +1200,8 @@ a.button-bookmark:active {
 }
 
 .sort-derection-list {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -1166,6 +1215,15 @@ a.button-bookmark:active {
 
 .sort-derection-list-icon a:focus {
   color: #ee3643;
+}
+
+.catalog {
+  width: 700px;
+  margin-bottom: 52px;
+}
+
+.catalog .catalog-item:nth-child(3n) {
+  margin-right: 0;
 }
 
 .filters fieldset {
@@ -1203,6 +1261,8 @@ a.button-bookmark:active {
 
 .filters-brend ul,
 .filters-field ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -1230,7 +1290,16 @@ a.button-bookmark:active {
 }
 
 .pagination-list {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  margin-bottom: 60px;
+  padding: 0;
   list-style: none;
+}
+
+.pagination-item {
+  margin-right: 10px;
 }
 
 .pagination-item a {
@@ -1257,6 +1326,11 @@ a.button-bookmark:active {
 }
 
 .about-perforators {
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+
   background-color: #f4f7f9;
 }
 
@@ -1264,12 +1338,16 @@ a.button-bookmark:active {
   font-size: 30px;
   line-height: 30px;
   text-transform: uppercase;
+
+  padding-top: 67px;
 }
 
 .about-perforators p {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
+
+  padding-bottom: 67px;
 }
 
 .modal-buy {
