@@ -161,6 +161,7 @@ a.order:active {
   margin: 0;
   padding: 0;
   padding-top: 45px;
+  padding-bottom: 60px;
 
   background-color: #f4f7f9;
 }
@@ -173,9 +174,13 @@ a.order:active {
   font-size: 16px;
   line-height: 23px;
   font-style: italic;
+  font-weight: 400;
   text-transform: none;
   width: 300px;
+
+  margin: 0;
   margin-right: 20px;
+  padding: 0;
   color: #ee3643;
 
   background-color: inherit;
@@ -205,6 +210,9 @@ a.phone {
 .user-navigation {
   display: flex;
   list-style: none;
+
+  margin: 0;
+  padding: 0;
 }
 
 .login-link {
@@ -305,12 +313,11 @@ a.button-exit:active {
 
 .main-navigation {
   padding-top: 38px;
-  padding-bottom: 60px;
 }
 
 .site-navigation {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 
   list-style: none;
   width: 940px;
@@ -322,8 +329,12 @@ a.button-exit:active {
 }
 
 .site-navigation a {
+  display: block;
   font-size: 17px;
   line-height: 17px;
+
+  padding: 20px 31px 22px 30px;
+
   color: #ffffff;
 
   background-color: #32425c;
@@ -510,6 +521,7 @@ a.button-exit:active {
 }
 
 .catalog-item {
+  box-sizing: border-box;
   width: 220px;
 
   margin-right: 20px;
@@ -646,6 +658,7 @@ a.button-bookmark:active {
 }
 
 .popular-brands-item {
+  box-sizing: border-box;
   width: 220px;
 
   margin-right: 20px;
