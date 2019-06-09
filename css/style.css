@@ -37,10 +37,6 @@ a.button:active {
 
 /* Стили для шапки сайта */
 
-.main-header {
-  margin-bottom: 60px;
-}
-
 .header-top {
   display: flex;
   flex-direction: column;
@@ -351,6 +347,10 @@ a.button-exit:active {
 }
 
 /* Стили для раздела Особенности */
+
+.features {
+  padding-top: 60px;
+}
 
 .catalog-sections-list {
   display: flex;
@@ -1122,8 +1122,9 @@ a.button-bookmark:active {
   display: flex;
 
   margin: 0;
-  margin-bottom: 22px;
   padding: 0;
+  padding-top: 22px;
+  padding-bottom: 22px;
   list-style: none;
 
   font-size: 13px;
@@ -1164,7 +1165,9 @@ a.button-bookmark:active {
   text-transform: uppercase;
   font-weight: 400;
 
+  margin: 0;
   margin-bottom: 20px;
+  padding: 0;
   padding-top: 32px;
   padding-bottom: 34px;
   padding-left: 30px;
@@ -1191,6 +1194,8 @@ a.button-bookmark:active {
 }
 
 .sort-type h2 {
+  margin: 0;
+  padding: 0;
   margin-right: 100px;
 }
 
@@ -1200,6 +1205,10 @@ a.button-bookmark:active {
   font-size: 13px;
   line-height: 18px;
   text-transform: uppercase;
+
+  margin: 0;
+  padding: 0;
+
   color: #000000;
 
   background-color: #f7f3ec;
@@ -1254,7 +1263,11 @@ a.button-bookmark:active {
 
 .catalog {
   width: 700px;
-  margin-bottom: 52px;
+}
+
+.catalog-list {
+  margin: 0;
+  padding: 0;
 }
 
 .catalog .catalog-item:nth-child(3n) {
@@ -1328,8 +1341,9 @@ a.button-bookmark:active {
   display: flex;
   flex-direction: row;
   margin: 0;
-  margin-bottom: 60px;
   padding: 0;
+  padding-top: 32px;
+  padding-bottom: 60px;
   list-style: none;
 }
 
@@ -1374,7 +1388,10 @@ a.button-bookmark:active {
   line-height: 30px;
   text-transform: uppercase;
 
+  margin: 0;
+  padding: 0;
   padding-top: 67px;
+  padding-bottom: 35px;
 }
 
 .about-perforators p {
@@ -1382,6 +1399,8 @@ a.button-bookmark:active {
   font-size: 13px;
   line-height: 24px;
 
+  margin: 0;
+  padding: 0;
   padding-bottom: 67px;
 }
 
