@@ -497,18 +497,26 @@ a.button-exit:active {
 .popular-products-title h2 {
   font-size: 30px;
   line-height: 30px;
+  font-weight: 400;
   text-transform: uppercase;
 
   width: 320px;
+
   margin: 0;
-  margin-left: 30px;
   padding: 0;
+  padding-top: 34px;
+  padding-bottom: 30px;
+  padding-left: 30px;
 
   color: #32425c;
 }
 
 .popular-products-btn {
-  margin-right: 25px;
+  margin-top: 25px;
+  margin-right: 24px;
+  margin-bottom: 26px;
+
+  padding: 14px 55px;
 }
 
 .catalog-list {
@@ -633,17 +641,24 @@ a.button-bookmark:active {
 .popular-brands-title h2 {
   font-size: 30px;
   line-height: 30px;
+  font-weight: 400;
   text-transform: uppercase;
 
   margin: 0;
-  margin-left: 30px;
   padding: 0;
+  padding-top: 34px;
+  padding-bottom: 30px;
+  padding-left: 30px;
 
   color: #32425c;
 }
 
 .all-brands-btn {
-  margin-right: 25px;
+  margin-top: 25px;
+  margin-right: 24px;
+  margin-bottom: 26px;
+
+  padding: 13px 70px 13px 69px;
 }
 
 .popular-brands-list {
