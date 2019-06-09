@@ -689,6 +689,7 @@ a.button-bookmark:active {
 /* Стили для раздела Сервисы */
 
 .services {
+  padding-top: 65px;
   background-color: #f4f7f9;
 }
 
@@ -786,6 +787,13 @@ a.button-bookmark:active {
 }
 
 .services-credit-btn {
+  display: block;
+
+  width: 107px;
+
+  margin-top: 25px;
+  padding: 14px 44px;
+
   background-color: #ff5357;
 }
 
