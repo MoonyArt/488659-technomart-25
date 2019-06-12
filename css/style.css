@@ -268,7 +268,6 @@ a.order:active {
   width: 100%;
   margin: 0;
   padding: 0;
-  padding-top: 45px;
   padding-bottom: 60px;
 
   background-color: #f4f7f9;
@@ -276,6 +275,8 @@ a.order:active {
 
 .header-bottom .container {
   display: flex;
+
+  /* padding-top: 45px; */
 }
 
 .header-bottom .page-title {
@@ -284,11 +285,14 @@ a.order:active {
   font-style: italic;
   font-weight: 400;
   text-transform: none;
-  width: 300px;
+
+  width: 200px;
 
   margin: 0;
-  margin-right: 20px;
   padding: 0;
+  padding-top: 49px;
+  padding-right: 70px;
+  padding-left: 52px;
 
   color: #ee3643;
 
@@ -296,23 +300,52 @@ a.order:active {
 }
 
 .header-contacts {
-  width: 300px;
+  max-width: 270px;
 
-  margin-right: 20px;
+  margin-right: 70px;
+  padding-top: 45px;
 }
 
 a.phone {
+  display: block;
+  position: relative;
+
   font-size: 21px;
   line-height: 21px;
 
-  text-align: center;
+  width: 270px;
+  box-sizing: border-box;
+
+  padding: 10px 49px 8px 69px;
+
   color: #ee3643;
   border: 3px solid #ffffff;
+}
+
+a.phone::before {
+  content: "";
+
+  position: absolute;
+  top: 11px;
+  left: 11px;
+
+  width: 19px;
+  height: 19px;
+
+  background-image: url("../img/icon-phone.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
 }
 
 .address {
   font-size: 14px;
   line-height: 24px;
+
+  margin: 0;
+  padding: 0;
+  padding-top: 5px;
+  padding-left: 8px;
+
   color: #32425c;
 }
 
@@ -322,24 +355,49 @@ a.phone {
 
   margin: 0;
   padding: 0;
+  padding-top: 46px;
 }
 
 .login-link {
-  width: 140px;
+  width: 120px;
 }
 
 .registration-link {
   width: 150px;
-  margin-left: auto;
+  margin-left: 10px;
 }
 
 .login-link a,
 .registration-link a {
+  display: block;
   font-size: 21px;
   line-height: 21px;
   color: #000000;
 
   background-color: #ffffff
+}
+
+.login-link a {
+  position: relative;
+  padding: 12px 27px 11px 45px;
+}
+
+.login-link svg {
+  position: absolute;
+  top: 14px;
+  left: 13px;
+}
+
+.login-link:hover path {
+  fill: #000000;
+}
+
+.login-link:active path {
+  fill: #c5c5c5;
+}
+
+.registration-link a {
+  padding: 12px 25px 11px 25px;
 }
 
 .login-link a:hover,
@@ -421,7 +479,7 @@ a.button-exit:active {
 }
 
 .main-navigation {
-  padding-top: 38px;
+  padding-top: 39px;
 }
 
 .site-navigation {
