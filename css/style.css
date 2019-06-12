@@ -86,16 +86,30 @@ a.button:active {
   flex-direction: row;
 }
 
+.header-top a {
+  color: #ffffff;
+}
+
+.header-top a:hover {
+  background-color: #212a3a;
+}
+
+.header-top a:active {
+  color: rgba(255, 255, 255, 0.6);
+
+  background-color: #161d29;
+}
+
 .header-top .main-header-logo {
   width: 220px;
   height: 42px;
-
-  background-color: #ee3643;
-  box-shadow: 0px 5px 0 0 #b52933;
 }
 
 .main-header-logo img {
   padding: 13px 56px 15px 55px;
+
+  background-color: #ee3643;
+  box-shadow: inset 0px -5px 0 0 #b52933;
 }
 
 .header-top .main-header-logo:hover {
@@ -110,11 +124,11 @@ a.button:active {
 
 .search {
   position: relative;
-
-  max-width: 270px;
 }
 
 .search input {
+  width: 270px;
+
   padding-top: 11px;
   padding-bottom: 12px;
   padding-left: 49px;
@@ -153,6 +167,7 @@ a.button:active {
 .bookmark {
   position: relative;
   width: 150px;
+  box-sizing: border-box;
 
   padding-top: 11px;
   padding-bottom: 13px;
@@ -187,6 +202,7 @@ a.button:active {
 .basket {
   position: relative;
   width: 150px;
+  box-sizing: border-box;
 
   padding-top: 11px;
   padding-bottom: 13px;
@@ -227,24 +243,10 @@ a.button:active {
   background-color: #ee3643;
 }
 
-.header-top a {
-  color: #ffffff;
-}
-
-.header-top a:hover {
-  background-color: #212a3a;
-}
-
-.header-top a:active {
-  color: rgba(255, 255, 255, 0.6);
-
-  background-color: #161d29;
-}
-
 .order {
   width: 150px;
+  box-sizing: border-box;
 
-  margin-left: auto;
   padding-top: 11px;
   padding-bottom: 13px;
   padding-left: 20px;
@@ -287,6 +289,7 @@ a.order:active {
   margin: 0;
   margin-right: 20px;
   padding: 0;
+
   color: #ee3643;
 
   background-color: inherit;
