@@ -15,6 +15,29 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .button {
   font: inherit;
   font-size: 14px;
@@ -59,6 +82,7 @@ a.button:active {
 
 .header-top .container {
   display: flex;
+  /* flex-wrap: wrap; */
   align-items: flex-start;
   flex-direction: row;
 }
@@ -67,10 +91,12 @@ a.button:active {
   width: 220px;
   height: 42px;
 
-  margin-right: 10px;
-
   background-color: #ee3643;
   box-shadow: 0px 5px 0 0 #b52933;
+}
+
+.main-header-logo img {
+  padding: 13px 56px 15px 55px;
 }
 
 .header-top .main-header-logo:hover {
@@ -84,12 +110,15 @@ a.button:active {
 }
 
 .search {
-  width: 90px;
+  position: relative;
 
-  margin-right: 160px;
+  max-width: 270px;
 }
 
 .search input {
+  padding-top: 11px;
+  padding-bottom: 12px;
+  padding-left: 49px;
   color: #ffffff;
 
   border: none;
@@ -106,17 +135,96 @@ a.button:active {
   background-color: #ffffff;
 }
 
-.bookmark {
-  width: 140px;
+.search svg {
+  position: absolute;
+  top: 12px;
+  left: 17px;
+  opacity: 0.3;
+}
 
-  margin-right: 20px;
+.search:hover svg {
+  opacity: 1;
+}
+
+.search:active path {
+  fill: #ee3643;
+  opacity: 1;
+}
+
+.bookmark {
+  position: relative;
+  width: 150px;
+
+  padding-top: 11px;
+  padding-bottom: 13px;
+  padding-left: 44px;
+}
+
+.bookmark::before {
+  content: "";
+
+  position: absolute;
+  top: 12px;
+  left: 17px;
+
+  width: 14px;
+  height: 16px;
+
+  background-image: url("../img/icon-bookmark.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+
+  opacity: 0.3;
+}
+
+.bookmark:hover::before {
+  opacity: 1;
+}
+
+.bookmark:active::before {
+  opacity: 0.5;
 }
 
 .basket {
-  width: 140px;
+  position: relative;
+  width: 150px;
+
+  padding-top: 11px;
+  padding-bottom: 13px;
+  padding-left: 50px;
+}
+
+.basket::before {
+  content: "";
+
+  position: absolute;
+  top: 12px;
+  left: 18px;
+
+  width: 15px;
+  height: 15px;
+
+  background-image: url("../img/icon-basket.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+
+  opacity: 0.3;
+}
+
+.basket:hover::before {
+  opacity: 1;
+}
+
+.basket:active::before {
+  opacity: 0.5;
 }
 
 .basket-full {
+  background-color: #ee3643;
+}
+
+.container .basket-full:hover,
+.container .basket-full:active {
   background-color: #ee3643;
 }
 
@@ -138,6 +246,9 @@ a.button:active {
   width: 150px;
 
   margin-left: auto;
+  padding-top: 11px;
+  padding-bottom: 13px;
+  padding-left: 20px;
 }
 
 a.order {
@@ -314,6 +425,7 @@ a.button-exit:active {
 .site-navigation {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 
   list-style: none;
   width: 940px;
