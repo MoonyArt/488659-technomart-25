@@ -1234,13 +1234,17 @@ a.button-bookmark:active {
   flex-wrap: wrap;
 
   margin: 0;
-  margin-bottom: 85px;
+  margin-bottom: 65px;
   padding: 0;
 
   list-style: none;
 }
 
 .popular-brands-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   box-sizing: border-box;
   width: 220px;
 
@@ -1263,10 +1267,6 @@ a.button-bookmark:active {
 
 .popular-brands-item a:active {
   opacity: 0.3;
-}
-
-.popular-brands-item a {
-  text-align: center;
 }
 
 /* Стили для раздела Сервисы */
