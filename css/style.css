@@ -667,12 +667,14 @@ a.button-exit:active {
 }
 
 .features-slides-item:nth-child(1) {
+  min-height: 266px;
   background-image: url("../img/slide-image-1.jpg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
 
 .features-slides-item:nth-child(2) {
+  min-height: 266px;
   background-image: url("../img/slide-image-2.jpg");
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -1279,13 +1281,20 @@ a.button-bookmark:active {
 .services h2 {
   font-size: 30px;
   line-height: 30px;
+  font-weight: 400;
   text-transform: uppercase;
+
+  margin: 0;
+  padding: 0;
+  padding-bottom: 30px;
 }
 
 .services p {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
+
+  width: 400px;
 
   margin: 0;
   padding: 0;
@@ -1294,35 +1303,96 @@ a.button-bookmark:active {
 .services .index-columns {
   display: flex;
 
-  margin-bottom: 82px;
+  padding-top: 68px;
 
   background-color: #f4f7f9;
+  background-image: url("../img/divider.png");
+  background-position: 230px 5px;
+  background-repeat: no-repeat;
 }
 
 .services-list {
+  position: relative;
+  width: 240px;
+
   margin: 0;
   margin-right: 80px;
   padding: 0;
+  padding-bottom: 100px;
+
   list-style: none;
 }
 
-.services-item button {
-  width: 240px;
+.services-list::after {
+  content: "";
+  position: absolute;
+  top: -40px;
+  right: 0;
+  width: 10px;
+  height: 279px;
+  background-image: url('../img/divider.png');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.services-description-item {
+  display: none;
+}
+
+.services-description-item:nth-child(1) {
+  display: block;
+}
+
+.services-description-item:nth-child(1) {
+  min-height: 261px;
+  background-image: url("../img/delivery.png");
+  background-repeat: no-repeat;
+  background-position: right 0;
+}
+
+.services-description-item:nth-child(2) {
+  min-height: 283px;
+  background-image: url("../img/guarantee.png");
+  background-repeat: no-repeat;
+  background-position: right 24px;
+}
+
+.services-description-item:nth-child(3) {
+  min-height: 285px;
+  background-image: url("../img/credit.png");
+  background-repeat: no-repeat;
+  background-position: right 0;
+}
+
+.services-item .services-btn {
+  display: block;
+
   font-size: 21px;
   line-height: 30px;
   font-weight: 700;
+  text-align: left;
   text-transform: none;
+
+  width: 240px;
+
+  padding: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 22px;
+
   color: #ffffff;
 
-  box-shadow: 0px 1px 0 0 #293449, inset 0px 1px 0 0 #405069;
+  box-shadow:
+    0px 1px 0 0 #293449,
+    inset 0px 1px 0 0 #405069;
   background-color: #32425c;
 }
 
-.services-item button:hover {
+.services-item .services-btn:hover {
   background-color: #293449;
 }
 
-.services-item button:focus {
+.services-item .services-btn:focus {
   color: #32425c;
 
   box-shadow: 0px 1px 0 0 #ffffff, inset 0px 1px 0 0 #ffffff;
@@ -1339,10 +1409,12 @@ a.button-bookmark:active {
 .services-description-item h3 {
   font-size: 36px;
   line-height: 24px;
+  font-weight: 400;
   text-transform: uppercase;
 
   margin: 0;
   padding: 0;
+  padding-bottom: 25px;
 
   color: #32425c
 }
@@ -1351,6 +1423,9 @@ a.button-bookmark:active {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
+
+  margin: 0;
+  padding: 0;
 }
 
 .services-delivery h3 {
