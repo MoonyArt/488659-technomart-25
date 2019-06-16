@@ -1580,13 +1580,13 @@ a.button-bookmark:active {
 
 .footer-top .container {
   display: flex;
+  justify-content: space-between;
 }
 
 .footer-top .footer-logo {
   width: 220px;
   height: 68px;
 
-  margin-right: 170px;
   margin-bottom: 30px;
 }
 
@@ -1599,7 +1599,9 @@ a.button-bookmark:active {
 
 .footer-contacts {
   width: 380px;
-  margin-right: 20px;
+
+  margin: 0;
+  padding: 0;
 }
 
 .footer-contacts,
@@ -1624,13 +1626,15 @@ a.button-bookmark:active {
 
 .footer-navigation-site {
   display: flex;
-  list-style: none;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-between;
 
+  list-style: none;
   width: 550px;
 
   margin: 0;
   padding: 0;
+  padding-top: 40px;
 }
 
 .footer-navigation-site a {
@@ -1641,14 +1645,14 @@ a.button-bookmark:active {
 
 .footer-navigation-menu {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-between;
 
-  width: 540px;
+  list-style: none;
+  width: 530px;
 
   margin: 0;
   padding: 0;
-
-  list-style: none;
 }
 
 .footer-navigation-menu a {
@@ -1668,6 +1672,8 @@ a.button-bookmark:active {
 }
 
 .footer-bottom {
+  padding-top: 38px;
+  padding-bottom: 34px;
   background-color: #293449;
 }
 
@@ -1700,24 +1706,76 @@ a.button-bookmark:active {
   list-style: none;
 }
 
+.footer-social-list li {
+  width: 42px;
+  height: 42px;
+}
+
 .footer-social-list li:first-child,
 .footer-social-list li:nth-child(2) {
   margin-right: 3px;
 }
 
 .social-button {
+  position: relative;
+  display: block;
+
+  text-align: center;
+  font-size: 0;
+
+  width: 42px;
+  height: 42px;
+
   color: #ffffff;
+  border-radius: 50%;
   background-color: #212a3a;
+}
+
+li:nth-child(1) .social-button::after {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: 8px;
+
+  width: 26px;
+  height: 15px;
+
+  background-image: url("../img/icon-vk.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+li:nth-child(2) .social-button::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 14px;
+
+  width: 12px;
+  height: 22px;
+
+  background-image: url("../img/icon-fb.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+li:nth-child(3) .social-button::after {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 10px;
+
+  width: 21px;
+  height: 21px;
+
+  background-image: url("../img/icon-insta.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
 }
 
 .social-button:hover,
 .social-button:active {
   background-color: #ee3643;
-}
-
-.footer-feedback {
-  width: 140px;
-  margin-right: 20px;
 }
 
 .footer-feedback,
@@ -1731,8 +1789,13 @@ a.button-bookmark:active {
   color: #ffffff
 }
 
-.footer-copyright-2 {
+.footer-feedback {
   width: 140px;
+  margin-right: 55px;
+}
+
+.footer-copyright-2 {
+  width: 100px;
   margin-left: auto;
 }
 
