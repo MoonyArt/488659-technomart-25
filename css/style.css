@@ -260,15 +260,15 @@ a.button:active {
   padding-left: 20px;
 }
 
-a.order {
+.order {
   background-color: #63a63e;
 }
 
-a.order:hover {
+.order:hover {
   background-color: #5fbb2d;
 }
 
-a.order:active {
+.order:active {
   background-color: #518534;
 }
 
@@ -311,7 +311,7 @@ a.order:active {
   padding-top: 45px;
 }
 
-a.phone {
+.phone {
   display: block;
   position: relative;
 
@@ -327,7 +327,7 @@ a.phone {
   border: 3px solid #ffffff;
 }
 
-a.phone::before {
+.phone::before {
   content: "";
 
   position: absolute;
@@ -427,7 +427,7 @@ a.phone::before {
   background-color: #ffffff;
 }
 
-a.button-input {
+.button-input {
   font-size: 21px;
   line-height: 21px;
   text-transform: none;
@@ -436,19 +436,19 @@ a.button-input {
   background-color: #ffffff;
 }
 
-a.button-exit {
+.button-exit {
   background-color: #ffffff;
 }
 
-a.button-input:hover,
-a.button-exit:hover {
+.button-input:hover,
+.button-exit:hover {
   color: #000000;
 
   background-color: #ffffff;
 }
 
-a.button-input:active,
-a.button-exit:active {
+.button-input:active,
+.button-exit:active {
   opacity: 0.3;
   color: rgba(0, 0, 0, 0.3);
 }
