@@ -140,6 +140,10 @@ a.button:active {
   background-color: #293449;
 }
 
+.search input::placeholder {
+  color: #ffffff;
+}
+
 .search input:hover {
   background-color: #212a3a;
 }
