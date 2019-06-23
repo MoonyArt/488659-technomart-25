@@ -950,6 +950,7 @@ a.button-exit:active {
 .popular-products-title {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
 
   margin-bottom: 20px;
 
@@ -1207,6 +1208,7 @@ a.button-bookmark:active {
 .popular-brands-title {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
 
   margin: 0;
   margin-bottom: 20px;
