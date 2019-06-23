@@ -2108,7 +2108,6 @@ li:nth-child(3) .social-button::after {
 
 .pagination-list {
   display: flex;
-  flex-direction: row;
   margin: 0;
   padding: 0;
   padding-top: 32px;
@@ -2144,8 +2143,6 @@ li:nth-child(3) .social-button::after {
 }
 
 .about-perforators {
-  width: 100%;
-
   margin: 0;
   padding: 0;
 
