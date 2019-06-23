@@ -1377,7 +1377,8 @@ a.button-bookmark:active {
   background-position: right 0;
 }
 
-.services-item .services-btn {
+.services-item .services-btn,
+.services-item .services-selected:hover {
   display: block;
 
   font-size: 21px;
@@ -1405,7 +1406,8 @@ a.button-bookmark:active {
   background-color: #293449;
 }
 
-.services-item .services-btn:focus {
+.services-item .services-btn:focus,
+.services-item .services-selected {
   color: #32425c;
 
   box-shadow: 0px 1px 0 0 #ffffff, inset 0px 1px 0 0 #ffffff;
