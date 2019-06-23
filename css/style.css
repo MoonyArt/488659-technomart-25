@@ -129,6 +129,8 @@ a.button:active {
 }
 
 .search input {
+  font-size: 17px;
+  line-height: 18px;
   width: 270px;
 
   padding-top: 11px;
@@ -1902,6 +1904,7 @@ li:nth-child(3) .social-button::after {
   padding-bottom: 22px;
   list-style: none;
 
+  font-family: "PT Sans", "Arial", sans-serif;;
   font-size: 13px;
   line-height: 18px;
   text-transform: uppercase;
@@ -1946,7 +1949,7 @@ li:nth-child(3) .social-button::after {
   padding-top: 32px;
   padding-bottom: 34px;
   padding-left: 30px;
-  color: #000000;
+  color: #32425c;
 
   background-color: #f2f6f8;
 }
@@ -1968,17 +1971,12 @@ li:nth-child(3) .social-button::after {
   margin-bottom: 20px;
 }
 
-.sort-type h2 {
-  margin: 0;
-  padding: 0;
-  margin-right: 100px;
-}
-
 .sort-type,
 .filters h2 {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
+  font-weight: 400;
   text-transform: uppercase;
 
   margin: 0;
@@ -1987,6 +1985,16 @@ li:nth-child(3) .social-button::after {
   color: #000000;
 
   background-color: #f7f3ec;
+}
+
+.sort-type h2 {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+
+  margin: 0;
+  padding: 0;
+  margin-right: 100px;
 }
 
 .sort-type-list {
