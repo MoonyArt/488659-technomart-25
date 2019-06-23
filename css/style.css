@@ -737,6 +737,8 @@ a.button-exit:active {
 .features-slides-switches1 .slides-switches-icon {
   display: inline-block;
   position: relative;
+
+  vertical-align: middle;
 }
 
 .features-slides-switches1 .slides-switches-icon:nth-child(2) {
@@ -804,6 +806,8 @@ a.button-exit:active {
 .features-slides-switches2 .slides-switches-radio {
   display: inline-block;
   position: relative;
+
+  vertical-align: middle;
 }
 
 .features-slides-switches2 .slides-switches-radio-btn {
@@ -1000,6 +1004,7 @@ a.button-exit:active {
 
   font-size: 17px;
   width: 220px;
+  vertical-align: middle;
 
   margin-right: 20px;
   margin-bottom: 21px;
