@@ -556,6 +556,22 @@ a.button-exit:active {
   background-color: #dc91d8;
 }
 
+.catalog-sections-list .flag-new::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 60px;
+  height: 59px;
+
+  text-indent: -1000px;
+  overflow: hidden;
+  z-index: 20;
+
+  background: url("../img/new-flag.png") no-repeat 0 0;
+}
+
 .catalog-sections-item h3 {
   font-size: 24px;
   line-height: 30px;
@@ -1017,7 +1033,8 @@ a.button-exit:active {
   margin-right: 0;
 }
 
-.flag {
+.catalog-list .flag-new::before {
+  content: "";
   position: absolute;
   top: -1px;
   right: -1px;
@@ -1028,9 +1045,7 @@ a.button-exit:active {
   text-indent: -1000px;
   overflow: hidden;
   z-index: 20;
-}
 
-.flag-new {
   background: url("../img/new-flag.png") no-repeat 0 0;
 }
 
