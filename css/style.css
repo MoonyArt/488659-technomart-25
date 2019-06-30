@@ -487,8 +487,29 @@ a.button:active {
   list-style: none;
 }
 
-.user-orders {
+.user-navigation-link li {
   position: relative;
+}
+
+.user-navigation-link li::after {
+  content: "";
+  position: absolute;
+
+  top: 8px;
+  right: 16px;
+
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+
+  background-color: #32425c;
+}
+
+.user-navigation-link li:last-child::after {
+  display: none;
+}
+
+.user-orders {
   margin-right: 32px;
   margin-left: 17px;
 }
@@ -499,20 +520,6 @@ a.button:active {
   line-height: 18px;
   color: #32425c;
   text-decoration: underline;
-}
-
-.user-orders::after {
-  content: "";
-  position: absolute;
-
-  top: 8px;
-  right: -16px;
-
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-
-  background-color: #32425c;
 }
 
 .user-orders:hover,
