@@ -1984,6 +1984,7 @@ li:nth-child(3) .social-button::after {
 
 .breadcrumbs li {
   position: relative;
+  margin-right: 40px;
 }
 
 .breadcrumbs li:first-child {
@@ -1999,7 +2000,7 @@ li:nth-child(3) .social-button::after {
   margin-right: 43px;
 }
 
-.breadcrumbs li:not(:last-child)::after {
+.breadcrumbs li::after {
   content: "";
   position: absolute;
 
@@ -2020,6 +2021,10 @@ li:nth-child(3) .social-button::after {
 
 .breadcrumbs li:nth-child(3)::after {
   right: -26px;
+}
+
+.breadcrumbs-current::after {
+  display: none;
 }
 
 .breadcrumbs a {
