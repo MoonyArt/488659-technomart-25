@@ -2090,6 +2090,8 @@ li:nth-child(3) .social-button::after {
 .catalog-columns-main .sort-type {
   display: flex;
   width: 700px;
+  box-sizing: border-box;
+
   margin-bottom: 20px;
 }
 
@@ -2103,6 +2105,9 @@ li:nth-child(3) .social-button::after {
 
   margin: 0;
   padding: 0;
+  padding-top: 11px;
+  padding-bottom: 12px;
+  padding-left: 18px;
 
   color: #000000;
 
@@ -2115,22 +2120,27 @@ li:nth-child(3) .social-button::after {
   font-weight: 400;
 
   margin: 0;
+  margin-right: 140px;
   padding: 0;
-  margin-right: 100px;
+  padding-left: 1px;
 }
 
 .sort-type-list {
   display: flex;
-  width: 380px;
+  width: 355px;
 
   margin: 0;
-  margin-right: 20px;
+  margin-right: 45px;
   padding: 0;
   list-style: none;
 }
 
-.sort-type-list-item {
-  margin-right: 20px;
+.sort-type-list-item:nth-child(1) {
+  margin-right: 70px;
+}
+
+.sort-type-list-item:nth-child(2) {
+  margin-right: 65px;
 }
 
 .sort-type-list-item a {
@@ -2143,27 +2153,53 @@ li:nth-child(3) .social-button::after {
   border-bottom: 1px solid #ee3643;
 }
 
-.sort-type-list-item a:focus {
+.sort-type-list-item a:focus,
+.sort-type-list-item .sort-type-current {
   border: none;
   color: #ee3643;
 }
 
 .sort-derection-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 43px;
+
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.sort-derection-list-icon a {
+.sort-derection-icon {
+  display: block;
+  position: relative;
+  text-align: center;
+  font-size: 0;
+
+  width: 11px;
+  height: 18px;
+
   color: rgba(0, 0, 0, 0.3);
 }
 
-.sort-derection-list-icon a:hover {
-  color: #000000;
+.sort-derection-icon svg {
+  position: absolute;
+
+  top: 4px;
+  left: 0;
 }
 
-.sort-derection-list-icon a:focus {
-  color: #ee3643;
+.sort-derection-icon path {
+  fill: #c5c5c5;
+}
+
+.sort-derection-icon:hover path {
+  fill: #000000;
+}
+
+.sort-derection-icon:focus path,
+.sort-derection-current path {
+  fill: #ee3643;
 }
 
 .catalog {
