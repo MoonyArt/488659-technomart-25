@@ -2110,7 +2110,7 @@ li:nth-child(3) .social-button::after {
   padding-left: 18px;
 
   color: #000000;
-
+  border-radius: 5px;
   background-color: #f7f3ec;
 }
 
@@ -2215,16 +2215,42 @@ li:nth-child(3) .social-button::after {
   margin-right: 0;
 }
 
-.filters fieldset {
+.filter fieldset {
+  margin: 0;
+  padding: 0;
+
   border: none;
 }
 
-.filters legend {
+.filters-price input {
+  width: 95px;
+  box-sizing: border-box;
+  text-align: center;
+
+  border: none;
+  border-radius: 5px;
+
+  margin: 0;
+  margin-right: 25px;
+  padding: 0;
+  padding-top: 11px;
+  padding-bottom: 13px;
+}
+
+.filters-price input:last-child {
+  margin-right: 0;
+}
+
+.filter legend {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 30px;
   font-weight: 700;
   text-transform: uppercase;
+
+  padding-top: 18px;
+  padding-bottom: 19px;
+
   color: #000000;
 }
 
@@ -2232,7 +2258,7 @@ li:nth-child(3) .social-button::after {
   letter-spacing: 1px;
 }
 
-.filters input[type="text"] {
+.filter input[type="text"] {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 18px;
@@ -2241,12 +2267,12 @@ li:nth-child(3) .social-button::after {
   background-color: #f7f3ec;
 }
 
-.filters p {
+/* .filter p {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 16px;
   line-height: 18px;
   color: #444444;
-}
+} */
 
 .filters-brend ul,
 .filters-field ul {
