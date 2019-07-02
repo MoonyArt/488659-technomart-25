@@ -711,6 +711,8 @@ a.button:active {
   margin-bottom: 53px;
 }
 
+/* Стили для Слайдера */
+
 .features-slides {
   position: relative;
   box-sizing: border-box;
@@ -772,7 +774,7 @@ a.button:active {
 
   max-width: 310px;
   margin: 0;
-  margin-bottom: 120px;
+  /* margin-bottom: 120px; */
   padding: 0;
   padding-left: 25px;
 
@@ -783,15 +785,16 @@ a.button:active {
   display: block;
   width: 195px;
   margin: 0;
+  margin-top: 115px;
   margin-left: 25px;
-  padding: 14px 0;
+  padding: 12px 0;
 }
 
 .features-slides-switches1 {
   position: absolute;
 
   left: 25px;
-  top: 114px;
+  top: 132px;
   z-index: 100;
 
   text-align: center;
@@ -855,6 +858,43 @@ a.button:active {
 }
 
 .features-slides-switches2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  left: 260px;
+  bottom: 33px;
+  z-index: 100;
+
+  margin: 0 auto;
+  width: 100px;
+  height: 16px;
+
+  background-color: transparent;
+}
+
+.slides-switches-radio-btn {
+  display: block;
+  box-sizing: content-box;
+  font-size: 0;
+
+  margin: 0 5px;
+  padding: 0;
+  width: 6px;
+  height: 6px;
+
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.features-slides-switches2 .active {
+  background-color: #ee3643;
+}
+
+/* .features-slides-switches2 {
   position: absolute;
   left: 50%;
   bottom: 36px;
@@ -885,7 +925,7 @@ a.button:active {
 
   border: none;
   border-radius: 50%;
-  background-color: inherit;
+  background-color: transparent;
   cursor: pointer;
 }
 
@@ -918,7 +958,9 @@ a.button:active {
 
   background-color: #ee3643;
   border-radius: 50%;
-}
+} */
+
+/* Продолжение: Стили для раздела Особенности */
 
 .features-rows {
   display: flex;
