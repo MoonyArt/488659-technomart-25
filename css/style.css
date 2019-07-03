@@ -1078,9 +1078,9 @@ a.button:active {
 
   margin: 0;
   padding: 0;
-  padding-top: 34px;
+  padding-top: 30px;
   padding-bottom: 30px;
-  padding-left: 30px;
+  padding-left: 28px;
 
   color: #32425c;
 }
@@ -1089,13 +1089,14 @@ a.button:active {
   display: block;
 
   width: 253px;
+  box-sizing: border-box;
   text-align: center;
 
   margin-top: 25px;
   margin-right: 24px;
   margin-bottom: 26px;
 
-  padding: 12px 0;
+  padding: 11px 0 9px;
 }
 
 .catalog-list {
@@ -1148,15 +1149,19 @@ a.button:active {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 18px;
   line-height: 20px;
+  min-height: 40px;
   font-weight: 700;
+
+  width: 160px;
   text-align: center;
+
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 0;
+  margin-top: 5px;
 }
 
-.catalog-item-name,
-.catalog-item-model {
-  padding: 0 25px;
-  margin-top: 10px;
-  margin-bottom: 15px;
+.catalog-item .catalog-item-name {
   color: #000000;
 
   background-color: #ffffff;
