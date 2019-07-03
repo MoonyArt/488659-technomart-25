@@ -1096,7 +1096,7 @@ a.button:active {
   margin-right: 24px;
   margin-bottom: 26px;
 
-  padding: 11px 0 9px;
+  padding: 10px 0;
 }
 
 .catalog-list {
@@ -1342,9 +1342,9 @@ a.button-bookmark:active {
 
   margin: 0;
   padding: 0;
-  padding-top: 34px;
+  padding-top: 30px;
   padding-bottom: 30px;
-  padding-left: 30px;
+  padding-left: 28px;
 
   color: #32425c;
 }
@@ -1359,7 +1359,7 @@ a.button-bookmark:active {
   margin-right: 24px;
   margin-bottom: 26px;
 
-  padding: 11px 0;
+  padding: 10px 0;
 }
 
 .popular-brands-list {
@@ -1378,8 +1378,8 @@ a.button-bookmark:active {
   align-items: center;
   justify-content: center;
 
-  box-sizing: border-box;
   width: 220px;
+  box-sizing: border-box;
   height: 145px;
 
   margin-right: 20px;
@@ -1397,6 +1397,38 @@ a.button-bookmark:active {
 
 .popular-brands-item:active a {
   box-shadow: 0px 4px 10px 0 rgba(41, 52, 73, 0.5);
+}
+
+.popular-brands-item:nth-child(1) img {
+  padding: 53px 0 55px;
+}
+
+.popular-brands-item:nth-child(2) img {
+  padding: 50px 0 55px;
+}
+
+.popular-brands-item:nth-child(3) img {
+  padding: 25px 0 32px;
+}
+
+.popular-brands-item:nth-child(4) img {
+  padding: 21px 11px 36px 9px;
+}
+
+.popular-brands-item:nth-child(5) img {
+  padding: 58px 0 56px;
+}
+
+.popular-brands-item:nth-child(6) img {
+  padding: 35px 0 37px;
+}
+
+.popular-brands-item:nth-child(7) img {
+  padding: 23px 0 26px;
+}
+
+.popular-brands-item:nth-child(8) img {
+  padding: 34px 0 42px;
 }
 
 .popular-brands-item:active img {
