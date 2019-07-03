@@ -1946,30 +1946,78 @@ li:nth-child(3) .social-button::after {
   text-decoration: none;
 }
 
-/* Стили для попапов */
+/* Стили для Всплывающих окон */
 
 .modal {
+  display: none;
+  position: fixed;
+  z-index: 150;
   color: #000000;
   background-color: #ffffff;
+}
+
+.modal-show {
+  display: block;
+}
+
+.modal-map {
+  width: 940px;
+  height: 446px;
+
+  top: 50%;
+  left: 50%;
+
+  box-shadow: 0 0 15px 2px rgba(47, 42, 43, 0.5);
+  background-image: url("../img/map-big.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #565656;
+  transform: translate(-50%, -50%);
+}
+
+.modal-map p {
+  margin: 0;
+  padding: 0;
 }
 
 .modal-map img {
   box-shadow: 0 0 15px 2px rgba(47, 42, 43, 0.5);
 }
 
-.modal-close {
-  color: #ee3643;
-}
-
 .modal-feedback {
+  width: 620px;
+  box-sizing: border-box;
+
+  top: 100px;
+  left: 50%;
+
+  margin-left: -310px;
+
   border-top: 7px solid #ee3643;
   box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.75);
   background-color: #ffffff;
 }
 
-.feedback-form label {
-  font-size: 18px;
-  line-height: 18px;
+.modal-feedback-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  width: 460px;
+  box-sizing: border-box;
+
+  margin: 0 auto;
+  padding: 0;
+  padding-top: 48px;
+}
+
+.feedback-form p {
+  margin: 0;
+  padding: 0;
+}
+
+.modal-feedback-container p:first-child {
+  margin-bottom: 20px;
 }
 
 .feedback-form input[type="text"],
@@ -1977,18 +2025,91 @@ li:nth-child(3) .social-button::after {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
-  color: ##999999;
+
+  color: #000000;
 
   border: 2px solid #d7dcde;
+  border-radius: 2px;
   background-color: #ffffff;
 }
 
+.feedback-form input[type="text"] {
+  display: flex;
+  flex-direction: column;
+
+  width: 220px;
+  box-sizing: border-box;
+
+  padding: 12px 0 12px 15px;
+}
+
+.feedback-form textarea {
+  width: 460px;
+  box-sizing: border-box;
+
+  margin-bottom: 37px;
+  padding-top: 12px;
+  padding-left: 15px;
+}
+
+.feedback-form label {
+  display: block;
+
+  font-size: 18px;
+  line-height: 18px;
+
+  margin-bottom: 10px;
+}
+
+.modal-close {
+  position: absolute;
+  font-size: 0;
+  cursor: pointer;
+
+  top: 0;
+  right: 0;
+
+  width: 22px;
+  height: 22px;
+
+  border: none;
+  background-color: transparent;
+}
+
+.modal-close::before,
+.modal-close::after {
+  content: "";
+  position: absolute;
+
+  top: 16px;
+  right: 9px;
+
+  width: 28px;
+  height: 5px;
+
+  background-color: #ee3643;
+}
+
+.modal-close::before {
+  transform: rotate(45deg);
+}
+
+.modal-close::after {
+  transform: rotate(-45deg);
+}
+
 .feedback-form-send-btn {
+  display: flex;
+
   background-color: #f4f4f4;
 }
 
 .feedback-form-send-btn button {
+  width: 460px;
   text-align: center;
+
+  margin: 38px auto;
+  padding: 12px 0;
 }
 
 .feedback-form-send-btn button:hover {
@@ -2007,6 +2128,79 @@ li:nth-child(3) .social-button::after {
 .feedback-form input:focus,
 .feedback-form textarea:focus {
   border: solid 2px #ee3643;
+}
+
+.modal-buy {
+  width: 620px;
+  box-sizing: border-box;
+
+  top: 200px;
+  left: 50%;
+
+  margin-left: -310px;
+
+  border-top: 7px solid #ee3643;
+  box-shadow: 0 20px 40px 0 rgba(41, 52, 73, 0.75);
+}
+
+.modal-buy h2 {
+  display: block;
+  position: relative;
+  font-weight: 400;
+
+  margin: 0;
+  margin-top: 60px;
+  margin-bottom: 68px;
+  padding-left: 180px;
+}
+
+.modal-buy h2::before {
+  content: "";
+  position: absolute;
+
+  top: -15px;
+  left: 80px;
+
+  width: 66px;
+  height: 66px;
+
+  border-radius: 50%;
+  background-image: url("../img/icon-mark.svg");
+  background-repeat: no-repeat;
+  background-color: #63a63e;
+  position: 0 0;
+}
+
+.modal-buy-btn {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  margin: 0;
+  padding: 37px 0;
+
+  background-color: #f1f1f1;
+}
+
+.modal-buy-btn .button {
+  width: 220px;
+
+  margin: 0;
+  padding: 12px 0;
+}
+
+.modal-buy-btn .modal-order-btn {
+  margin-right: 20px;
+}
+
+.modal-buy-btn .modal-shopping-btn:hover {
+  border: 1px solid #bdc6ca;
+  background-color: #ffffff;
+}
+
+.modal-buy-btn .modal-shopping-btn:active {
+  border: 1px solid #ee3643;
+  background-color: #ffffff;
 }
 
 /* Стили для страницы каталога */
