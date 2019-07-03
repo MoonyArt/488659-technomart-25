@@ -1183,8 +1183,9 @@ a.button:active {
 
   min-height: 20px;
 
-  margin-top: 15px;
-  margin-bottom: 10px;
+  margin: 0;
+  margin-bottom: 8px;
+  padding: 0;
 
   color: #a9a9a9;
   text-decoration: line-through;
@@ -1198,8 +1199,8 @@ a.button:active {
   font-weight: 700;
   text-align: center;
 
-  width: 141px;
-  margin: 10px auto;
+  width: 140px;
+  margin: 0 auto;
   margin-bottom: 20px;
 
   background: #ee3643;
@@ -1208,7 +1209,7 @@ a.button:active {
 
 .catalog-item-new-price a {
   display: block;
-  padding: 11px 30px;
+  padding: 10px 30px;
   color: #ffffff;
 }
 
@@ -1217,12 +1218,12 @@ a.button:active {
 
   position: absolute;
   top: 0;
-  right: -20px;
+  right: -23px;
 
   width: 0;
   height: 0;
 
-  border: 20px solid white;
+  border: 19px solid white;
   border-left-color: #ee3643;
 }
 
