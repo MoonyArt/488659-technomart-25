@@ -1244,20 +1244,20 @@ a.button:active {
 .catalog-item-selected .button-buy,
 .catalog-item-selected .button-bookmark {
   display: block;
+  width: 135px;
   box-sizing: border-box;
 
   font-size: 14px;
   line-height: 18px;
   text-align: center;
-  width: 129px;
 
   margin: 0 auto;
   margin-bottom: 7px;
-  padding: 7px 0;
+  padding: 12px 0;
   border-radius:3px;
 }
 
-.button-buy {
+.catalog-item-selected .button-buy {
   position: relative;
   color: #ffffff;
 
@@ -1265,11 +1265,11 @@ a.button:active {
   background-color: #63a63e;
 }
 
-.button-buy::before {
+.catalog-item-selected .button-buy::before {
   content: "";
-
   position: absolute;
-  top: 9px;
+
+  top: 12px;
   left: 14px;
 
   width: 15px;
@@ -1291,7 +1291,8 @@ a.button-buy:active {
   background-color: #518534;
 }
 
-.button-bookmark {
+.catalog-item-selected .button-bookmark {
+  padding: 9px 0;
   color: #32425c;
 
   border: 3px solid #63a63e;
