@@ -133,9 +133,9 @@ a.button:active {
   line-height: 18px;
   width: 270px;
 
-  padding-top: 11px;
-  padding-bottom: 12px;
-  padding-left: 49px;
+  padding-top: 12px;
+  padding-bottom: 11px;
+  padding-left: 48px;
   color: #ffffff;
 
   border: none;
@@ -177,8 +177,8 @@ a.button:active {
   width: 150px;
   box-sizing: border-box;
 
-  padding-top: 11px;
-  padding-bottom: 13px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   padding-left: 44px;
 }
 
@@ -212,9 +212,9 @@ a.button:active {
   width: 150px;
   box-sizing: border-box;
 
-  padding-top: 11px;
-  padding-bottom: 13px;
-  padding-left: 50px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 49px;
 }
 
 .basket::before {
@@ -255,8 +255,8 @@ a.button:active {
   width: 150px;
   box-sizing: border-box;
 
-  padding-top: 11px;
-  padding-bottom: 13px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   padding-left: 20px;
 }
 
