@@ -1450,7 +1450,7 @@ a.button-bookmark:active {
 
   margin: 0;
   padding: 0;
-  padding-bottom: 30px;
+  padding-bottom: 25px;
 }
 
 .services p {
@@ -1466,13 +1466,9 @@ a.button-bookmark:active {
 
 .services .index-columns {
   display: flex;
-
   padding-top: 68px;
 
   background-color: #f4f7f9;
-  background-image: url("../img/divider.png");
-  background-position: 230px 5px;
-  background-repeat: no-repeat;
 }
 
 .services-list {
@@ -1490,10 +1486,13 @@ a.button-bookmark:active {
 .services-list::after {
   content: "";
   position: absolute;
+
   top: -40px;
   right: 0;
+
   width: 10px;
   height: 279px;
+
   background-image: url('../img/divider.png');
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -1511,14 +1510,14 @@ a.button-bookmark:active {
   min-height: 261px;
   background-image: url("../img/delivery.png");
   background-repeat: no-repeat;
-  background-position: right 0;
+  background-position: 150px 22px;
 }
 
 .services-description-item:nth-child(2) {
   min-height: 283px;
   background-image: url("../img/guarantee.png");
   background-repeat: no-repeat;
-  background-position: right 24px;
+  background-position: right 0;
 }
 
 .services-description-item:nth-child(3) {
@@ -1541,7 +1540,7 @@ a.button-bookmark:active {
   width: 240px;
 
   padding: 0;
-  padding-top: 15px;
+  padding-top: 16px;
   padding-bottom: 15px;
   padding-left: 22px;
 
@@ -1585,6 +1584,10 @@ a.button-bookmark:active {
   color: #32425c
 }
 
+.services-credit h3 {
+  padding-top: 5px;
+}
+
 .services-description-item p {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
@@ -1616,7 +1619,7 @@ a.button-bookmark:active {
   width: 107px;
 
   margin-top: 25px;
-  padding: 14px 44px;
+  padding: 10px 44px;
 
   background-color: #ff5357;
 }
