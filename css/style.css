@@ -385,7 +385,7 @@ a.button:active {
 
 .login-link a {
   position: relative;
-  padding: 12px 27px 11px 45px;
+  padding: 12px 27px 12px 45px;
 }
 
 .login-link svg {
@@ -403,7 +403,7 @@ a.button:active {
 }
 
 .registration-link a {
-  padding: 12px 25px 11px 25px;
+  padding: 12px 25px 12px 25px;
 }
 
 .login-link a:hover,
@@ -628,9 +628,9 @@ a.button:active {
 
   margin: 0;
   padding: 0;
-  padding-top: 23px;
+  padding-top: 21px;
   padding-bottom: 12px;
-  padding-left: 23px;
+  padding-left: 22px;
   color: #ffffff;
 }
 
@@ -649,6 +649,10 @@ a.button:active {
   color: #ffffff;
 
   background-color: rgba(0, 0, 0, 0.1);
+}
+
+.catalog-sections-item .features-icon-3 {
+  margin-left: 23px;
 }
 
 .catalog-sections-item a:hover {
@@ -763,8 +767,8 @@ a.button:active {
   color: #ffffff;
   margin: 0;
   padding: 0;
-  padding-top: 27px;
-  padding-bottom: 5px;
+  padding-top: 24px;
+  padding-bottom: 1px;
   padding-left: 24px;
 }
 
@@ -774,7 +778,6 @@ a.button:active {
 
   max-width: 310px;
   margin: 0;
-  /* margin-bottom: 120px; */
   padding: 0;
   padding-left: 25px;
 
@@ -785,16 +788,16 @@ a.button:active {
   display: block;
   width: 195px;
   margin: 0;
-  margin-top: 115px;
+  margin-top: 121px;
   margin-left: 25px;
-  padding: 12px 0;
+  padding: 11px 0 9px;
 }
 
 .features-slides-switches1 {
   position: absolute;
 
   left: 25px;
-  top: 132px;
+  top: 134px;
   z-index: 100;
 
   text-align: center;
@@ -810,7 +813,7 @@ a.button:active {
 }
 
 .features-slides-switches1 .slides-switches-icon:nth-child(2) {
-  margin-left: 530px;
+  margin-left: 531px;
 }
 
 .features-slides-switches1 .slides-switches-btn {
@@ -988,9 +991,9 @@ a.button:active {
 
   margin: 0;
   padding: 0;
-  padding-top: 23px;
+  padding-top: 21px;
   padding-bottom: 12px;
-  padding-left: 23px;
+  padding-left: 22px;
 
   color: #ffffff;
 }
@@ -1004,7 +1007,7 @@ a.button:active {
   text-transform: uppercase;
 
   width: 135px;
-  margin-left: 25px;
+  margin-left: 23px;
   margin-bottom: 22px;
   padding: 10px 0;
 
