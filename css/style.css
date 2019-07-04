@@ -1240,7 +1240,7 @@ a.button:active {
   width: 218px;
   height: 88px;
 
-  padding: 40px 0;
+  padding: 25px 0;
 
   background-color: #ffffff;
   z-index: 10;
@@ -1262,7 +1262,7 @@ a.button:active {
 
   margin: 0 auto;
   margin-bottom: 7px;
-  padding: 12px 0;
+  padding: 10px 0;
   border-radius:3px;
 }
 
@@ -1301,7 +1301,7 @@ a.button-buy:active {
 }
 
 .catalog-item-selected .button-bookmark {
-  padding: 9px 0;
+  padding: 7px 0;
   color: #32425c;
 
   border: 3px solid #63a63e;
@@ -1976,7 +1976,6 @@ li:nth-child(3) .social-button::after {
 
 .footer-copyright-2 {
   width: 100px;
-  /* margin-left: 5px; */
 }
 
 .feedback,
@@ -2283,7 +2282,7 @@ li:nth-child(3) .social-button::after {
 }
 
 .breadcrumbs li:first-child {
-  margin-right: 41px;
+  margin-right: 40px;
   padding-top: 3px;
 }
 
@@ -2299,8 +2298,8 @@ li:nth-child(3) .social-button::after {
   content: "";
   position: absolute;
 
-  top: 3px;
-  right: -23px;
+  top: 2px;
+  right: -21px;
 
   width: 8px;
   height: 12px;
@@ -2339,7 +2338,7 @@ li:nth-child(3) .social-button::after {
 
   background-image: url("../img/icon-home.svg");
   background-repeat: no-repeat;
-  background-position: 0 0;
+  background-position: -2px 0;
 }
 
 .catalog-columns {
@@ -2356,9 +2355,9 @@ li:nth-child(3) .social-button::after {
   margin: 0;
   margin-bottom: 20px;
   padding: 0;
-  padding-top: 32px;
-  padding-bottom: 34px;
-  padding-left: 30px;
+  padding-top: 29px;
+  padding-bottom: 30px;
+  padding-left: 27px;
   color: #32425c;
 
   background-color: #f2f6f8;
@@ -2389,8 +2388,8 @@ li:nth-child(3) .social-button::after {
 
   margin: 0;
   padding: 0;
-  padding-top: 11px;
-  padding-bottom: 12px;
+  padding-top: 9px;
+  padding-bottom: 11px;
   padding-left: 18px;
 
   color: #000000;
@@ -2499,6 +2498,10 @@ li:nth-child(3) .social-button::after {
   margin-right: 0;
 }
 
+.catalog-item-3 .catalog-item-selected {
+  display: block;
+}
+
 /* Стили для Фильтров */
 
 .filters {
@@ -2530,8 +2533,8 @@ li:nth-child(3) .social-button::after {
   font-weight: 700;
   text-transform: uppercase;
 
-  padding-top: 18px;
-  padding-bottom: 17px;
+  padding-top: 10px;
+  padding-bottom: 15px;
 
   color: #000000;
 }
@@ -2614,7 +2617,7 @@ li:nth-child(3) .social-button::after {
   box-sizing: border-box;
 
   margin: 0;
-  padding: 9px 0 11px;
+  padding: 7px 0 13px;
 
   color: #000000;
   border: none;
@@ -2635,6 +2638,16 @@ li:nth-child(3) .social-button::after {
   height: 1px;
 
   background-color: #444444;
+}
+
+.filter .filters-brend-title {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.filter .filters-field-title {
+  padding-top: 14px;
+  padding-bottom: 6px;
 }
 
 .filter-brands-list,
@@ -2664,8 +2677,8 @@ li:nth-child(3) .social-button::after {
   cursor: pointer;
   user-select: none;
 
-  padding: 10px 0;
-  padding-left: 35px;
+  padding: 5px 0 14px;
+  padding-left: 34px;
 }
 
 .filter-input-checkbox + label::before {
@@ -2673,7 +2686,7 @@ li:nth-child(3) .social-button::after {
   position: absolute;
   box-sizing: border-box;
 
-  top: 9px;
+  top: 2px;
   left: 0;
 
   width: 23px;
@@ -2690,8 +2703,8 @@ li:nth-child(3) .social-button::after {
   position: absolute;
   box-sizing: border-box;
 
-  top: 11px;
-  left: 6px;
+  top: 8px;
+  left: 5px;
 
   width: 20px;
   height: 10px;
@@ -2707,7 +2720,7 @@ li:nth-child(3) .social-button::after {
   position: absolute;
   box-sizing: border-box;
 
-  top:8px;
+  top: 6px;
   left: 0;
 
   width: 25px;
@@ -2722,7 +2735,7 @@ li:nth-child(3) .social-button::after {
   position: absolute;
   box-sizing: border-box;
 
-  top: 16px;
+  top: 14px;
   left: 8px;
 
   width: 9px;
@@ -2747,6 +2760,8 @@ li:nth-child(3) .social-button::after {
 
 .filter-button {
   display: block;
+  width: 140px;
+  box-sizing: border-box;
 
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
@@ -2754,8 +2769,8 @@ li:nth-child(3) .social-button::after {
   text-align: center;
   vertical-align: middle;
 
-  margin-top: 70px;
-  padding: 10px 38px;
+  margin-top: 66px;
+  padding: 10px 0;
 
   color: #000000;
 
