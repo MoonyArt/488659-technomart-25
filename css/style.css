@@ -2858,18 +2858,23 @@ li:nth-child(3) .social-button::after {
 .about-perforators h2 {
   font-size: 30px;
   line-height: 30px;
+  font-weight: 400;
   text-transform: uppercase;
 
   margin: 0;
   padding: 0;
-  padding-top: 67px;
-  padding-bottom: 35px;
+  padding-top: 65px;
+  padding-bottom: 27px;
 }
 
 .about-perforators p {
+  width: 940px;
+  box-sizing: border-box;
+
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
+  font-weight: 400;
 
   margin: 0;
   padding: 0;
