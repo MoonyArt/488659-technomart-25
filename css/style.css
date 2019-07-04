@@ -1635,29 +1635,30 @@ a.button-bookmark:active {
 }
 
 .about-company {
-  width: 540px;
+  width: 520px;
 }
 
 .about-company h2 {
   font-size: 30px;
   line-height: 30px;
+  font-weight: 400;
   text-transform: uppercase;
 
   margin: 0;
   padding: 0;
-  padding-bottom: 30px;
+  padding-bottom: 27px;
 }
 
 .about-company p {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
-  line-height: 25px;
+  line-height: 24px;
 
-  width: 530px;
+  width: 520px;
 
   margin: 0;
   padding: 0;
-  padding-bottom: 25px;
+  padding-bottom: 22px;
 }
 
 .about-company .about-delivery {
@@ -1670,7 +1671,7 @@ a.button-bookmark:active {
 
   width: 220px;
   margin-top: 15px;
-  padding: 12px 0;
+  padding: 10px 0;
 }
 
 .delivery-company {
@@ -1684,10 +1685,14 @@ a.button-bookmark:active {
   position: relative;
   font-size: 18px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
 
   padding-left: 36px;
   padding-bottom: 22px;
+}
+
+.delivery-company li:nth-child(2) {
+  padding-bottom: 19px;
 }
 
 .delivery-company li::before {
@@ -1709,23 +1714,24 @@ a.button-bookmark:active {
 .contacts h2 {
   font-size: 30px;
   line-height: 30px;
+  font-weight: 400;
   text-transform: uppercase;
 
   margin: 0;
   padding: 0;
-  padding-bottom: 30px;
+  padding-bottom: 27px;
 }
 
 .contacts p {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
-  line-height: 30px;
+  line-height: 24px;
 
   width: 180px;
 
   margin: 0;
   padding: 0;
-  padding-bottom: 25px;
+  padding-bottom: 30px;
 }
 
 .contacts .button {
@@ -1733,8 +1739,8 @@ a.button-bookmark:active {
   text-align: center;
 
   width: 300px;
-  margin-top: 40px;
-  padding: 12px 0;
+  margin-top: 38px;
+  padding: 10px 0;
 }
 
 /* Стили для Подвала */
@@ -1760,7 +1766,7 @@ a.button-bookmark:active {
   width: 220px;
   height: 68px;
 
-  margin-bottom: 30px;
+  margin-bottom: 28px;
 }
 
 .footer-logo img {
@@ -1784,7 +1790,8 @@ a.button-bookmark:active {
 
   margin: 0;
   padding: 0;
-  padding-bottom: 50px;
+  padding-left: 2px;
+  padding-bottom: 48px;
 
   color: #f3f7f9;
 }
@@ -1807,7 +1814,7 @@ a.button-bookmark:active {
 
   margin: 0;
   padding: 0;
-  padding-top: 40px;
+  padding-top: 38px;
 }
 
 .footer-navigation-site a {
@@ -1822,7 +1829,7 @@ a.button-bookmark:active {
   justify-content: space-between;
 
   list-style: none;
-  width: 530px;
+  width: 525px;
 
   margin: 0;
   padding: 0;
@@ -1907,8 +1914,8 @@ a.button-bookmark:active {
 li:nth-child(1) .social-button::after {
   content: "";
   position: absolute;
-  top: 14px;
-  left: 8px;
+  top: 12px;
+  left: 7px;
 
   width: 26px;
   height: 15px;
@@ -1921,7 +1928,7 @@ li:nth-child(1) .social-button::after {
 li:nth-child(2) .social-button::after {
   content: "";
   position: absolute;
-  top: 10px;
+  top: 9px;
   left: 14px;
 
   width: 12px;
@@ -1935,7 +1942,7 @@ li:nth-child(2) .social-button::after {
 li:nth-child(3) .social-button::after {
   content: "";
   position: absolute;
-  top: 12px;
+  top: 9px;
   left: 10px;
 
   width: 21px;
@@ -1964,12 +1971,12 @@ li:nth-child(3) .social-button::after {
 
 .footer-feedback {
   width: 140px;
-  margin-right: 55px;
+  margin-right: 47px;
 }
 
 .footer-copyright-2 {
   width: 100px;
-  margin-left: auto;
+  /* margin-left: 5px; */
 }
 
 .feedback,
