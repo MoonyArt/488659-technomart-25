@@ -2498,10 +2498,6 @@ li:nth-child(3) .social-button::after {
   margin-right: 0;
 }
 
-.catalog-item-3 .catalog-item-selected {
-  display: block;
-}
-
 /* Стили для Фильтров */
 
 .filters {
